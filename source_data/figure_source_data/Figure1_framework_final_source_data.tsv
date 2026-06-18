@@ -6,4 +6,4 @@ Negative chemotherapy context	GSE25066_RMA: APC axis null; proliferation positiv
 Supportive caveat	GSE163882: supportive but proliferation-sensitive
 Recurrence biology	METABRIC: RFS biology support
 Cell-source support	GSE266919/GSE176078: module-specific source biology
-Claim boundary	State decomposition, not universal pCR prediction
+Claim boundary	State decomposition, not a general pCR-response assay
