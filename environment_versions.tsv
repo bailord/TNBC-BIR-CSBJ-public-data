@@ -1,0 +1,12 @@
+component	version
+R	4.6.0
+Python	3.9.6
+ggplot2	4.0.3
+dplyr	1.2.1
+readr	2.2.0
+survival	3.8.6
+metafor	5.0.1
+GEOquery	2.80.0
+Biobase	2.72.0
+affy	1.90.0
+limma	3.68.3

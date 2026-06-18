@@ -1,0 +1,10 @@
+cohort_context	endpoint	score_or_model	n_events	effect	estimate_95CI	p_value	covariates	interpretation
+GSE194040/I-SPY2 APC axis	pCR	APC CXCL9 axis	363/142	OR	1.85 (1.44-2.37)	<0.001	pCR_binary ~ treatment_arm + scale(APC_CXCL9_axis)	strong_context_association
+GSE25066 RMA APC axis	pCR	APC CXCL9 axis	170/57	OR	0.99 (0.72-1.37)	0.961	pCR_binary ~ cohort + scale(APC_CXCL9_axis)	valid_negative_context
+GSE25066 RMA proliferation	pCR	Proliferation	170/57	OR	1.55 (1.10-2.18)	0.012	pCR_binary ~ cohort + scale(Proliferation)	valid_negative_context
+GSE163882 APC axis	pCR	APC CXCL9 axis	90/38	OR	1.72 (1.08-2.71)	0.021	pCR_binary ~ scale(APC_CXCL9_axis)	supportive_but_sensitive
+GSE163882 APC axis adjusted for proliferation	pCR	APC CXCL9 axis	90/38	OR	1.46 (0.86-2.47)	0.161	pCR_binary ~ scale(APC_CXCL9_axis) + scale(Proliferation)	supportive_but_sensitive
+Manual external NAC meta	pCR	APC CXCL9 axis	not pooled/not pooled	OR	1.22 (0.95-1.57)	0.118	k=5; datasets=GSE41998;GSE20194;GSE22226;GSE32646;GSE163882	directional_non_definitive
+GSE25066 RMA DRFS APC axis	DRFS	APC CXCL9 axis	178/64	HR	0.87 (0.69-1.10)	0.253	Surv(drfs_time_years, drfs_event) ~ cohort + scale(APC_CXCL9_axis)	valid_negative_context
+METABRIC RFS APC axis	RFS	APC CXCL9 axis	320/131	HR	0.75 (0.64-0.89)	<0.001	Surv(rfs_time_months, rfs_event) ~ scale(APC_CXCL9_axis) + age	recurrence_biology_support
+METABRIC RFS APC axis stage-adjusted complete-case sensitivity	RFS	APC CXCL9 axis	233/95	HR	0.83 (0.68-1.01)	0.064	Surv(rfs_time_months, rfs_event) ~ scale(APC_CXCL9_axis) + age +      tumor_stage	complete-case stage sensitivity
