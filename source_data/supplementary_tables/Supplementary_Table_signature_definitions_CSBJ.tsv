@@ -1,0 +1,87 @@
+signature	module_group	gene	expected_cell_source	role	priority	notes
+Basoluminal_plasticity	Tumor_axis	KRT5	malignant_epithelial	core	1	basal cytokeratin
+Basoluminal_plasticity	Tumor_axis	KRT7	malignant_epithelial	core	1	luminal cytokeratin; CK5/CK7 co-expression proxy
+Basoluminal_plasticity	Tumor_axis	KRT19	malignant_epithelial	core	2	epithelial/luminal cytokeratin
+Basoluminal_plasticity	Tumor_axis	ALDH1A3	malignant_epithelial	core	1	stem/progenitor-like marker
+Basoluminal_plasticity	Tumor_axis	SOX9	malignant_epithelial	core	1	stem/plasticity transcription factor
+Basoluminal_plasticity	Tumor_axis	TNFAIP3	malignant_epithelial	core	1	basoluminal-associated from supplement extraction
+Basoluminal_plasticity	Tumor_axis	EGFR	malignant_epithelial	core	2	basal/TNBC epithelial marker
+Basoluminal_plasticity	Tumor_axis	CD44	malignant_epithelial	core	2	stem/EMT-associated marker
+Basoluminal_plasticity	Tumor_axis	NOTCH1	malignant_epithelial	secondary	2	plasticity pathway
+Mast_cell	Immune_remodeling	TPSAB1	mast_cell	core	1	mast marker
+Mast_cell	Immune_remodeling	TPSB2	mast_cell	core	1	mast marker
+Mast_cell	Immune_remodeling	CPA3	mast_cell	core	1	mast marker
+Mast_cell	Immune_remodeling	MS4A2	mast_cell	core	1	FCER1 pathway mast/basophil marker
+Mast_cell	Immune_remodeling	KIT	mast_cell	secondary	2	mast marker
+Mast_cell	Immune_remodeling	HPGDS	mast_cell	secondary	2	from TNBC supplement markers
+Mast_cell	Immune_remodeling	GATA2	mast_cell	secondary	2	mast lineage TF
+Tfh_TLS_like	Immune_remodeling	CXCL13	CD4_Tfh_B_TLS	core	1	Tfh/TLS chemokine
+Tfh_TLS_like	Immune_remodeling	CXCR5	CD4_Tfh_B_TLS	core	1	Tfh marker
+Tfh_TLS_like	Immune_remodeling	DUSP4	CD4_Tfh_B_TLS	core	1	CD4_Tfh-DUSP4 marker
+Tfh_TLS_like	Immune_remodeling	IL6ST	CD4_Tfh_B_TLS	core	1	CD4_Tfh-IL6ST marker
+Tfh_TLS_like	Immune_remodeling	PDCD1	CD4_Tfh_CD8_Tex	secondary	2	activation/exhaustion marker; interpret with cell type
+Tfh_TLS_like	Immune_remodeling	TIGIT	T_cells	secondary	2	checkpoint; interpret with cell type
+Tfh_TLS_like	Immune_remodeling	CD40LG	CD4_Tfh	core	1	Tfh/B cell help
+Tfh_TLS_like	Immune_remodeling	SH2D1A	CD4_Tfh	secondary	2	Tfh-associated
+Tfh_TLS_like	Immune_remodeling	BCL6	CD4_Tfh	secondary	2	Tfh transcription factor
+Tfh_TLS_like	Immune_remodeling	TOX2	CD4_Tfh	secondary	2	Tfh-associated
+Tfh_TLS_like	Immune_remodeling	MS4A1	B_cell_TLS	secondary	2	B cell/TLS marker
+Tfh_TLS_like	Immune_remodeling	CD79A	B_cell_TLS	secondary	2	B cell/TLS marker
+Tfh_TLS_like	Immune_remodeling	CD79B	B_cell_TLS	secondary	2	B cell/TLS marker
+CD8_Tsem_memory	Immune_remodeling	EOMES	CD8_Tsem_memory	core	1	CD8_Tsem-EOMES marker
+CD8_Tsem_memory	Immune_remodeling	IL7R	CD8_T_memory	core	1	memory T marker
+CD8_Tsem_memory	Immune_remodeling	TCF7	CD8_stem_like_memory	core	1	stem-like memory T cell marker; verify expression in scRNA
+CD8_Tsem_memory	Immune_remodeling	GZMK	CD8_memory_effector	secondary	2	memory/effector marker
+CD8_Tsem_memory	Immune_remodeling	CXCR3	CD8_Tcell	secondary	2	chemokine receptor for CXCL9/10 axis
+CD8_Tsem_memory	Immune_remodeling	CCR7	naive_memory_T	secondary	2	memory/trafficking marker
+CXCL9_FOLR2_macrophage	Immune_remodeling	CXCL9	IFN_macrophage	core	1	pro-inflammatory macrophage chemokine
+CXCL9_FOLR2_macrophage	Immune_remodeling	CXCL10	IFN_macrophage	core	1	pro-inflammatory macrophage chemokine
+CXCL9_FOLR2_macrophage	Immune_remodeling	CCL3L1	IFN_macrophage	secondary	2	from Macro-CXCL9 marker extraction
+CXCL9_FOLR2_macrophage	Immune_remodeling	FOLR2	macrophage	core	1	FOLR2 macrophage state
+CXCL9_FOLR2_macrophage	Immune_remodeling	HLA-DQA1	antigen_presenting_macrophage	core	1	HLA-II macrophage/APC marker
+CXCL9_FOLR2_macrophage	Immune_remodeling	HLA-DRA	antigen_presenting_macrophage	core	1	HLA-II marker
+CXCL9_FOLR2_macrophage	Immune_remodeling	CD74	antigen_presenting_macrophage	core	1	HLA-II chaperone
+CXCL9_FOLR2_macrophage	Immune_remodeling	FCGR2A	macrophage	secondary	2	macrophage marker
+CXCL9_FOLR2_macrophage	Immune_remodeling	MAFB	macrophage	secondary	2	macrophage transcription factor
+CXCL9_FOLR2_macrophage	Immune_remodeling	C3	macrophage	secondary	2	complement/macrophage marker
+DC_HLA_antigen_presentation	Immune_remodeling	CLEC9A	cDC1	core	1	cDC1 marker
+DC_HLA_antigen_presentation	Immune_remodeling	XCR1	cDC1	core	1	cDC1 marker
+DC_HLA_antigen_presentation	Immune_remodeling	BATF3	cDC1	core	1	cDC1 transcription factor
+DC_HLA_antigen_presentation	Immune_remodeling	LAMP3	mature_DC	core	1	mature DC/TLS marker
+DC_HLA_antigen_presentation	Immune_remodeling	CCR7	mature_DC_Tcell	secondary	2	trafficking marker
+DC_HLA_antigen_presentation	Immune_remodeling	CCL19	mature_DC_TLS	secondary	2	TLS/CCR7 ligand
+DC_HLA_antigen_presentation	Immune_remodeling	HLA-DRB1	APC	core	1	HLA-II marker
+DC_HLA_antigen_presentation	Immune_remodeling	HLA-DRA	APC	core	1	HLA-II marker
+DC_HLA_antigen_presentation	Immune_remodeling	CD74	APC	core	1	HLA-II chaperone
+Suppressive_myeloid	Suppressive_axis	FN1	myeloid_stromal	core	1	Macro-FN1 / matrix program
+Suppressive_myeloid	Suppressive_axis	TGFBI	myeloid_stromal	core	1	TGF-beta-associated stromal/myeloid program
+Suppressive_myeloid	Suppressive_axis	CCL7	myeloid	secondary	2	myeloid chemokine
+Suppressive_myeloid	Suppressive_axis	RNASE1	myeloid	secondary	2	Macro-RNASE1 marker
+Suppressive_myeloid	Suppressive_axis	MRC1	macrophage	core	1	M2-like macrophage marker
+Suppressive_myeloid	Suppressive_axis	MT1X	myeloid_stress	secondary	2	Macro-MT1X marker
+Suppressive_myeloid	Suppressive_axis	NUPR1	myeloid_stress	secondary	2	stress program
+Suppressive_myeloid	Suppressive_axis	S100A8	monocyte_neutrophil	core	1	inflammatory suppressive myeloid marker
+Suppressive_myeloid	Suppressive_axis	S100A9	monocyte_neutrophil	core	1	inflammatory suppressive myeloid marker
+Suppressive_myeloid	Suppressive_axis	FCN1	monocyte	secondary	2	monocyte marker
+Suppressive_myeloid	Suppressive_axis	CD163	macrophage	core	1	M2-like macrophage marker
+Suppressive_myeloid	Suppressive_axis	MARCO	macrophage	secondary	2	suppressive macrophage marker
+Suppressive_myeloid	Suppressive_axis	SPP1	macrophage	core	1	suppressive/tumor-associated macrophage marker
+Proliferation	Control	MKI67	cycling_cells	control	1	proliferation control
+Proliferation	Control	TOP2A	cycling_cells	control	1	proliferation control
+Proliferation	Control	PCNA	cycling_cells	control	1	proliferation control
+Proliferation	Control	MCM2	cycling_cells	control	1	proliferation control
+Proliferation	Control	MCM4	cycling_cells	control	1	proliferation control
+Proliferation	Control	MCM6	cycling_cells	control	1	proliferation control
+Proliferation	Control	TYMS	cycling_cells	control	1	proliferation control
+Proliferation	Control	CCNB1	cycling_cells	control	1	proliferation control
+Proliferation	Control	CCNE1	cycling_cells	control	1	proliferation control
+Cytolytic	Control	GZMA	cytotoxic_T_NK	control	1	cytolytic activity control
+Cytolytic	Control	PRF1	cytotoxic_T_NK	control	1	cytolytic activity control
+HLAII	Control	HLA-DRA	APC	control	1	HLA-II control
+HLAII	Control	HLA-DRB1	APC	control	1	HLA-II control
+HLAII	Control	HLA-DQA1	APC	control	1	HLA-II control
+HLAII	Control	HLA-DQB1	APC	control	1	HLA-II control
+HLAII	Control	CD74	APC	control	1	HLA-II control
+TIM3_cell_source_check	Exploratory	HAVCR2	T_cell_macrophage_or_tumor	exploratory	3	do not use as bulk tumor-cell marker without scRNA evidence
+TIM3_cell_source_check	Exploratory	LGALS9	immune_stromal_tumor	exploratory	3	TIM3 ligand; interpret cautiously
+TIM3_cell_source_check	Exploratory	CEACAM1	immune_epithelial	exploratory	3	TIM3-related ligand/cofactor
