@@ -1,8 +1,7 @@
-# Run order
+# Suggested run order
 
-This submission repository contains curated source-data tables, final figures, locked signature definitions, and safe scripts from the TNBC-BIR public-data analysis. The final manuscript reports results generated before this submission snapshot; no model training or outcome-derived cutoff optimization is included.
-
-1. Review locked signatures in `source_data/supplementary_tables/`.
-2. Review final figure source data in `source_data/figure_source_data/`.
-3. Re-render available schematic/graphical materials using scripts in `scripts/` where provided.
-4. Compare final figure PDFs/PNGs in `figures/` with source-data tables.
+1. Review signature definitions in `source_data/supplementary_tables/`.
+2. Configure local paths and public data locations as described in `scripts/analysis/README.md`.
+3. Run cohort-specific acquisition/preprocessing scripts only when rebuilding from public data.
+4. Run scoring/modeling scripts, then figure-generation scripts.
+5. Compare regenerated source tables and figures with the deposited source-data files.
