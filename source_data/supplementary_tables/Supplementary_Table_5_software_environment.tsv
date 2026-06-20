@@ -1,0 +1,8 @@
+component	version	source
+R	Rscript (R) version 4.6.0 (2026-04-24)	Rscript --version
+Python	3.12.13	/Users/baiqiu/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3
+OS	26.5.1	sw_vers
+ggplot2	4.0.3	R packageVersion
+dplyr	1.2.1	R packageVersion
+readr	2.2.0	R packageVersion
+openxlsx	4.2.8.1	R packageVersion
