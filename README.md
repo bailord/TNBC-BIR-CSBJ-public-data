@@ -20,3 +20,8 @@ The TNBC-BIR framework uses literature-derived gene sets and reports context-dep
 ## License
 
 Code and text in this repository are provided under the MIT License. Data tables derived from public repositories remain subject to the terms and licenses of the original data sources.
+
+
+## Submission release update
+
+The v1.0-submission tag contains locked signatures, selected analysis scripts, figure source data, supplementary tables, and final source-data-derived figures for the CSBJ submission package.
