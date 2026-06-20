@@ -255,13 +255,3 @@ cohort_signature_coverage								GSE266919	13	13	1		results/GSE266919_subcluster
 cohort_signature_coverage								GSE266919	5	4	0.8	MS4A2	results/GSE266919_subcluster_signature_coverage.tsv				mast_marker
 cohort_signature_coverage								GSE266919	8	8	1		results/GSE266919_subcluster_signature_coverage.tsv				tfh_tls_marker
 cohort_signature_coverage								GSE266919	6	6	1		results/GSE266919_subcluster_signature_coverage.tsv				cd8_tsem_marker
-cohort_signature_coverage	Basoluminal_plasticity						Coverage adequate for lightweight cell-source scoring.	GSE176078	9	9	1		results/GSE176078_scrna_signature_gene_coverage.tsv				
-cohort_signature_coverage	CD8_Tsem_memory						Coverage adequate for lightweight cell-source scoring.	GSE176078	6	6	1		results/GSE176078_scrna_signature_gene_coverage.tsv				
-cohort_signature_coverage	CXCL9_FOLR2_macrophage						Coverage adequate for lightweight cell-source scoring.	GSE176078	10	9	0.9	CCL3L1	results/GSE176078_scrna_signature_gene_coverage.tsv				
-cohort_signature_coverage	Cytolytic						Coverage adequate for lightweight cell-source scoring.	GSE176078	2	2	1		results/GSE176078_scrna_signature_gene_coverage.tsv				
-cohort_signature_coverage	DC_HLA_antigen_presentation						Coverage adequate for lightweight cell-source scoring.	GSE176078	9	9	1		results/GSE176078_scrna_signature_gene_coverage.tsv				
-cohort_signature_coverage	HLAII						Coverage adequate for lightweight cell-source scoring.	GSE176078	5	5	1		results/GSE176078_scrna_signature_gene_coverage.tsv				
-cohort_signature_coverage	Mast_cell						Coverage adequate for lightweight cell-source scoring.	GSE176078	7	7	1		results/GSE176078_scrna_signature_gene_coverage.tsv				
-cohort_signature_coverage	Proliferation						Coverage adequate for lightweight cell-source scoring.	GSE176078	9	9	1		results/GSE176078_scrna_signature_gene_coverage.tsv				
-cohort_signature_coverage	Suppressive_myeloid						Coverage adequate for lightweight cell-source scoring.	GSE176078	13	13	1		results/GSE176078_scrna_signature_gene_coverage.tsv				
-cohort_signature_coverage	Tfh_TLS_like						Coverage adequate for lightweight cell-source scoring.	GSE176078	13	13	1		results/GSE176078_scrna_signature_gene_coverage.tsv				
