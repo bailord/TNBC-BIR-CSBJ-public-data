@@ -25,3 +25,8 @@ Code and text in this repository are provided under the MIT License. Data tables
 ## Submission release update
 
 The v1.0-submission tag contains locked signatures, selected analysis scripts, figure source data, supplementary tables, and final source-data-derived figures for the CSBJ submission package.
+
+
+## Submission release update
+
+The v1.0-submission tag contains locked signatures, selected analysis scripts, figure source data, supplementary tables, and final source-data-derived figures for the CSBJ submission package.
