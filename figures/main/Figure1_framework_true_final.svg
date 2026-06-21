@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="1400" viewBox="0 0 3000 1400">
+<rect width="3000" height="1400" fill="white"/>
+<text x="120" y="145" font-family="Arial" font-size="56" font-weight="bold" fill="#153B63">Literature-anchored TNBC state-decomposition analysis</text>
+<rect x="120" y="250" width="560" height="710" rx="28" fill="#E8F0F7" stroke="#3F4A54" stroke-width="3"/>
+<text x="152" y="326" font-family="Arial" font-size="28" fill="#555555">Panel 1</text>
+<text x="152" y="400" font-family="Arial" font-size="38" font-weight="bold" fill="#1C1C1C">Literature-anchored modules</text>
+<text x="152" y="500" font-family="Arial" font-size="31" fill="#202020">Fixed gene sets spanning</text>
+<text x="152" y="542" font-family="Arial" font-size="31" fill="#202020">epithelial/plasticity, antigen-</text>
+<text x="152" y="584" font-family="Arial" font-size="31" fill="#202020">presentation, myeloid,</text>
+<text x="152" y="626" font-family="Arial" font-size="31" fill="#202020">proliferation, and cytolytic</text>
+<text x="152" y="668" font-family="Arial" font-size="31" fill="#202020">programs</text>
+<line x1="708" y1="605" x2="785" y2="605" stroke="#52616B" stroke-width="8"/>
+<polygon points="785,605 750,583 750,627" fill="#52616B"/>
+<rect x="820" y="250" width="560" height="710" rx="28" fill="#EEF6EA" stroke="#3F4A54" stroke-width="3"/>
+<text x="852" y="326" font-family="Arial" font-size="28" fill="#555555">Panel 2</text>
+<text x="852" y="400" font-family="Arial" font-size="38" font-weight="bold" fill="#1C1C1C">Fixed scoring</text>
+<text x="852" y="500" font-family="Arial" font-size="31" fill="#202020">Gene-level z-scores and module</text>
+<text x="852" y="542" font-family="Arial" font-size="31" fill="#202020">means; antigen-</text>
+<text x="852" y="584" font-family="Arial" font-size="31" fill="#202020">presentation/CXCL9/HLA-II</text>
+<text x="852" y="626" font-family="Arial" font-size="31" fill="#202020">composite fixed after framework</text>
+<text x="852" y="668" font-family="Arial" font-size="31" fill="#202020">refinement</text>
+<line x1="1408" y1="605" x2="1485" y2="605" stroke="#52616B" stroke-width="8"/>
+<polygon points="1485,605 1450,583 1450,627" fill="#52616B"/>
+<rect x="1520" y="250" width="560" height="710" rx="28" fill="#FFF4E0" stroke="#3F4A54" stroke-width="3"/>
+<text x="1552" y="326" font-family="Arial" font-size="28" fill="#555555">Panel 3</text>
+<text x="1552" y="400" font-family="Arial" font-size="38" font-weight="bold" fill="#1C1C1C">Evidence across contexts</text>
+<text x="1552" y="500" font-family="Arial" font-size="31" fill="#202020">I-SPY2 internal association;</text>
+<text x="1552" y="542" font-family="Arial" font-size="31" fill="#202020">GSE25066_RMA chemotherapy-</text>
+<text x="1552" y="584" font-family="Arial" font-size="31" fill="#202020">context assessment; additional</text>
+<text x="1552" y="626" font-family="Arial" font-size="31" fill="#202020">NAC cohorts; METABRIC recurrence</text>
+<line x1="2108" y1="605" x2="2185" y2="605" stroke="#52616B" stroke-width="8"/>
+<polygon points="2185,605 2150,583 2150,627" fill="#52616B"/>
+<rect x="2220" y="250" width="560" height="710" rx="28" fill="#F0ECF7" stroke="#3F4A54" stroke-width="3"/>
+<text x="2252" y="326" font-family="Arial" font-size="28" fill="#555555">Panel 4</text>
+<text x="2252" y="400" font-family="Arial" font-size="38" font-weight="bold" fill="#1C1C1C">Biological localization</text>
+<text x="2252" y="500" font-family="Arial" font-size="31" fill="#202020">GSE266919 single-cell data;</text>
+<text x="2252" y="542" font-family="Arial" font-size="31" fill="#202020">Myeloid, dendritic-cell,</text>
+<text x="2252" y="584" font-family="Arial" font-size="31" fill="#202020">macrophage, and B-cell</text>
+<text x="2252" y="626" font-family="Arial" font-size="31" fill="#202020">localization of antigen-</text>
+<text x="2252" y="668" font-family="Arial" font-size="31" fill="#202020">presentation programs</text>
+<rect x="120" y="1060" width="2760" height="180" rx="22" fill="#F5F5F5" stroke="#777777" stroke-width="2"/>
+<text x="160" y="1145" font-family="Arial" font-size="38" font-weight="bold" fill="#153B63">Interpretation boundary</text>
+<text x="750" y="1148" font-family="Arial" font-size="31" fill="#202020">State-decomposition analysis, not a general pCR prediction assay</text>
+</svg>

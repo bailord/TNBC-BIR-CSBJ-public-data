@@ -1,17 +1,40 @@
-dataset	module_or_source_conclusion	source_row	source_compartment	n_sources	n_samples_range	n_patients_range	score_range	score_mid	manuscript_interpretation	caveat
-GSE266919	HLAII	Myeloid: cDC1-CLEC9A	myeloid/DC	6	50-75	33-43	3.57-4.43	4.000	HLA-II signal is enriched in myeloid/APC and B-cell/APC compartments.	Patient/sample-level source support only; not a response-prediction claim.
-GSE266919	HLAII	Myeloid: Macro-FOLR2	myeloid/DC	6	50-75	33-43	3.57-4.43	4.000	HLA-II signal is enriched in myeloid/APC and B-cell/APC compartments.	Patient/sample-level source support only; not a response-prediction claim.
-GSE266919	HLAII	Myeloid: cDC2-CLEC10A	myeloid/DC	6	50-75	33-43	3.57-4.43	4.000	HLA-II signal is enriched in myeloid/APC and B-cell/APC compartments.	Patient/sample-level source support only; not a response-prediction claim.
-GSE266919	HLAII	Bcell: Bact-IFITM1	B-cell/APC	6	50-75	33-43	3.57-4.43	4.000	HLA-II signal is enriched in myeloid/APC and B-cell/APC compartments.	Patient/sample-level source support only; not a response-prediction claim.
-GSE266919	HLAII	Bcell: Bn-CD69	B-cell/APC	6	50-75	33-43	3.57-4.43	4.000	HLA-II signal is enriched in myeloid/APC and B-cell/APC compartments.	Patient/sample-level source support only; not a response-prediction claim.
-GSE266919	HLAII	Bcell: Bmem-NR4A2	B-cell/APC	6	50-75	33-43	3.57-4.43	4.000	HLA-II signal is enriched in myeloid/APC and B-cell/APC compartments.	Patient/sample-level source support only; not a response-prediction claim.
-GSE266919	CXCL9_FOLR2_macrophage	Myeloid: Macro-FOLR2	myeloid/DC	4	41-74	30-42	2.00-2.41	2.205	CXCL9/FOLR2 module localizes to macrophage/APC subclusters.	Patient/sample-level source support only; not a response-prediction claim.
-GSE266919	CXCL9_FOLR2_macrophage	Myeloid: Macro-CXCL9	myeloid/DC	4	41-74	30-42	2.00-2.41	2.205	CXCL9/FOLR2 module localizes to macrophage/APC subclusters.	Patient/sample-level source support only; not a response-prediction claim.
-GSE266919	CXCL9_FOLR2_macrophage	Myeloid: Macro-CCL3L1	myeloid/DC	4	41-74	30-42	2.00-2.41	2.205	CXCL9/FOLR2 module localizes to macrophage/APC subclusters.	Patient/sample-level source support only; not a response-prediction claim.
-GSE266919	CXCL9_FOLR2_macrophage	Myeloid: Macro-ISG15	myeloid/DC	4	41-74	30-42	2.00-2.41	2.205	CXCL9/FOLR2 module localizes to macrophage/APC subclusters.	Patient/sample-level source support only; not a response-prediction claim.
-GSE266919	DC_HLA_antigen_presentation	Myeloid: mDC-LAMP3	myeloid/DC	3	68-75	42-43	1.74-2.25	1.995	DC/HLA antigen presentation module localizes to cDC/mDC subclusters.	Patient/sample-level source support only; not a response-prediction claim.
-GSE266919	DC_HLA_antigen_presentation	Myeloid: cDC1-CLEC9A	myeloid/DC	3	68-75	42-43	1.74-2.25	1.995	DC/HLA antigen presentation module localizes to cDC/mDC subclusters.	Patient/sample-level source support only; not a response-prediction claim.
-GSE266919	DC_HLA_antigen_presentation	Myeloid: cDC2-CLEC10A	myeloid/DC	3	68-75	42-43	1.74-2.25	1.995	DC/HLA antigen presentation module localizes to cDC/mDC subclusters.	Patient/sample-level source support only; not a response-prediction claim.
-GSE266919	B_cell_APC_rows	Bcell: Bact-IFITM1	B-cell/APC	3	62-67	38-40	1.24-3.74	2.490	B-cell/APC subclusters support immune/APC source biology.	Patient/sample-level source support only; not a response-prediction claim.
-GSE266919	B_cell_APC_rows	Bcell: Bn-CD69	B-cell/APC	3	62-67	38-40	1.24-3.74	2.490	B-cell/APC subclusters support immune/APC source biology.	Patient/sample-level source support only; not a response-prediction claim.
-GSE266919	B_cell_APC_rows	Bcell: Bmem-NR4A2	B-cell/APC	3	62-67	38-40	1.24-3.74	2.490	B-cell/APC subclusters support immune/APC source biology.	Patient/sample-level source support only; not a response-prediction claim.
+dataset	source_compartment	subcluster	module	module_label	n_cells	n_samples	n_patients	score_raw	score_z_within_module	source_interpretation
+GSE266919	Myeloid	Macro-FOLR2	CXCL9_FOLR2_macrophage	CXCL9/FOLR2 macrophage	1482	50	33	2.4148739062045146	1.483495254564478	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Myeloid	Macro-CXCL9	CXCL9_FOLR2_macrophage	CXCL9/FOLR2 macrophage	6569	74	42	2.1701065354495985	1.1211791915786278	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Myeloid	Macro-CCL3L1	CXCL9_FOLR2_macrophage	CXCL9/FOLR2 macrophage	1531	41	30	2.1508648692826293	1.0926967810783945	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Myeloid	Macro-ISG15	CXCL9_FOLR2_macrophage	CXCL9/FOLR2 macrophage	3367	64	39	1.995647221539008	0.8629363891481154	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Myeloid	cDC2-CLEC10A	CXCL9_FOLR2_macrophage	CXCL9/FOLR2 macrophage	3747	75	43	1.7698991897620568	0.5287736376017605	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Myeloid	cDC1-CLEC9A	CXCL9_FOLR2_macrophage	CXCL9/FOLR2 macrophage	884	72	43	1.5294123621174938	0.17279383390733857	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Myeloid	mDC-LAMP3	CXCL9_FOLR2_macrophage	CXCL9/FOLR2 macrophage	1101	68	42	1.4321648014086432	0.028843464941337348	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Bcell	Bact-IFITM1	CXCL9_FOLR2_macrophage	CXCL9/FOLR2 macrophage	5372	62	38	1.2781345200917629	-0.19915933189883	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Bcell	Bn-CD69	CXCL9_FOLR2_macrophage	CXCL9/FOLR2 macrophage	10269	67	40	1.2640836285275097	-0.21995811605580315	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Bcell	Bmem-NR4A2	CXCL9_FOLR2_macrophage	CXCL9/FOLR2 macrophage	10886	64	39	1.240762292842917	-0.25447944339920003	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	CD8Tcell	CD8_Tsem-EOMES	CXCL9_FOLR2_macrophage	CXCL9/FOLR2 macrophage	13037	76	43	0.4748420404505153	-1.3882302760859955	Context only
+GSE266919	CD4Tcell	CD4_Tfh-DUSP4	CXCL9_FOLR2_macrophage	CXCL9/FOLR2 macrophage	8529	74	43	0.3316146278558481	-1.6002421634666486	Context only
+GSE266919	Myeloid	MAST-TPSAB1	CXCL9_FOLR2_macrophage	CXCL9/FOLR2 macrophage	1757	60	38	0.3124238667572812	-1.6286492219135724	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Myeloid	mDC-LAMP3	DC_HLA_antigen_presentation	Dendritic-cell/HLA	1101	68	42	2.2521651683295105	1.4944540895948737	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Myeloid	cDC1-CLEC9A	DC_HLA_antigen_presentation	Dendritic-cell/HLA	884	72	43	2.003799055633293	1.0438024745307046	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Myeloid	cDC2-CLEC10A	DC_HLA_antigen_presentation	Dendritic-cell/HLA	3747	75	43	1.739154438510799	0.5636140831692661	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Myeloid	Macro-FOLR2	DC_HLA_antigen_presentation	Dendritic-cell/HLA	1482	50	33	1.7213930097012509	0.5313865925024522	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Myeloid	Macro-CCL3L1	DC_HLA_antigen_presentation	Dendritic-cell/HLA	1531	41	30	1.6372308084967904	0.3786772253170179	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Myeloid	Macro-CXCL9	DC_HLA_antigen_presentation	Dendritic-cell/HLA	6569	74	42	1.5916615897186268	0.29599347342889404	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Bcell	Bact-IFITM1	DC_HLA_antigen_presentation	Dendritic-cell/HLA	5372	62	38	1.5876692917357458	0.28874958852740057	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Bcell	Bn-CD69	DC_HLA_antigen_presentation	Dendritic-cell/HLA	10269	67	40	1.57613023944176	0.2678123821744753	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Bcell	Bmem-NR4A2	DC_HLA_antigen_presentation	Dendritic-cell/HLA	10886	64	39	1.5298708943341028	0.1838764202259355	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Myeloid	Macro-ISG15	DC_HLA_antigen_presentation	Dendritic-cell/HLA	3367	64	39	1.4427950298722216	0.025880313080465622	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	CD8Tcell	CD8_Tsem-EOMES	DC_HLA_antigen_presentation	Dendritic-cell/HLA	13037	76	43	0.5964708150730891	-1.5097453410265413	Context only
+GSE266919	CD4Tcell	CD4_Tfh-DUSP4	DC_HLA_antigen_presentation	Dendritic-cell/HLA	8529	74	43	0.5070303870584346	-1.6720318659444329	Context only
+GSE266919	Myeloid	MAST-TPSAB1	DC_HLA_antigen_presentation	Dendritic-cell/HLA	1757	60	38	0.385541368862154	-1.8924694355805094	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Myeloid	cDC1-CLEC9A	HLAII	HLA-II	884	72	43	4.432756040864135	0.916509308435483	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Myeloid	Macro-FOLR2	HLAII	HLA-II	1482	50	33	4.428832663024655	0.9134849898125265	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Myeloid	cDC2-CLEC10A	HLAII	HLA-II	3747	75	43	4.337168294557618	0.8428259128745929	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Myeloid	Macro-CXCL9	HLAII	HLA-II	6569	74	42	4.011610473513662	0.5918710924836866	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Myeloid	Macro-CCL3L1	HLAII	HLA-II	1531	41	30	3.987851994792232	0.5735569732246913	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Bcell	Bact-IFITM1	HLAII	HLA-II	5372	62	38	3.7375856678553623	0.38064027128542477	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Bcell	Bn-CD69	HLAII	HLA-II	10269	67	40	3.712045718787074	0.3609529134124902	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Myeloid	mDC-LAMP3	HLAII	HLA-II	1101	68	42	3.606988586353829	0.2799700830322334	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Bcell	Bmem-NR4A2	HLAII	HLA-II	10886	64	39	3.5724542737770624	0.2533494594445859	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	Myeloid	Macro-ISG15	HLAII	HLA-II	3367	64	39	3.5012496251409697	0.19846166792365805	Selected coherent APC/myeloid/B-cell subcluster
+GSE266919	CD8Tcell	CD8_Tsem-EOMES	HLAII	HLA-II	13037	76	43	1.2294004409702814	-1.5527833248722727	Context only
+GSE266919	CD4Tcell	CD4_Tfh-DUSP4	HLAII	HLA-II	8529	74	43	0.8577029901264903	-1.8393046768003125	Context only
+GSE266919	Myeloid	MAST-TPSAB1	HLAII	HLA-II	1757	60	38	0.7536224954327575	-1.9195346702567921	Selected coherent APC/myeloid/B-cell subcluster

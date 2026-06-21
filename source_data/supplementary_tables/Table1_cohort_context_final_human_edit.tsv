@@ -1,0 +1,10 @@
+Dataset	Assay/material	Treatment or analysis context	Endpoint and TNBC subset	Analyzed N/events	Study role and key limitation
+GSE194040/I-SPY2	Agilent microarray; pretreatment tumors	Multi-arm neoadjuvant I-SPY2	pCR; HR-negative/HER2-negative proxy	363; 142 pCR	Internal treatment-context association; composite assembled during framework development
+GSE25066_RMA	Affymetrix HG-U133A CEL; RMA-normalized pretreatment biopsies	Anthracycline/taxane neoadjuvant chemotherapy	pCR and DRFS; clinical TNBC	170/57 pCR; 178/64 DRFS	Independent chemotherapy-context assessment; antigen-presentation score null for pCR
+GSE163882	RNA-seq TPM; FFPE pretreatment biopsies	Multicenter neoadjuvant chemotherapy	pCR; deposited TNBC annotation	90; 38 pCR	Supportive association attenuated after proliferation adjustment
+GSE41998	Microarray; pretreatment tumor biopsies	Neoadjuvant chemotherapy	pCR; receptor-negative TNBC	125; 51 pCR	External NAC cohort; imprecise estimate
+GSE20194	Affymetrix HG-U133A; pretreatment fine-needle aspirates	Paclitaxel followed by FAC	pCR; receptor-negative TNBC	65; 23 pCR	External NAC cohort; antigen-presentation score null and proliferation dominant
+GSE22226/I-SPY1	Agilent microarrays; pretreatment tumors	Neoadjuvant I-SPY1	pCR; TNBC subset	29; 8 pCR	Underpowered external NAC cohort; platform-adjusted analysis
+GSE32646	Affymetrix HG-U133 Plus 2.0; pretreatment core biopsies	P-FEC neoadjuvant chemotherapy	pCR; ER-negative/HER2-negative TNBC proxy	26; 10 pCR	Underpowered external NAC cohort
+METABRIC	Illumina expression microarray; primary tumors	Retrospective recurrence cohort	RFS; clinical TNBC	320; 131 events	Recurrence analysis; stage incomplete for complete-case sensitivity
+GSE266919	scRNA-seq immune-cell compartments	Chemotherapy with or without PD-L1 blockade	Cell-source localization; TNBC	44 patients; 78 biopsies	Cell-source support; not patient-level response validation

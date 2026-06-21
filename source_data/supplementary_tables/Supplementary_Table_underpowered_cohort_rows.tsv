@@ -1,3 +1,0 @@
-Dataset	Subset	N	pCR events	Platform	Model note	Limitation
-GSE22226	Primary TNBC	29	8	Agilent, two platforms	Platform fixed effect included	Underpowered; fewer than 15 pCR events
-GSE32646	Primary TNBC	26	10	Affymetrix HG-U133 Plus 2.0	Single-cohort logistic model	Underpowered; fewer than 15 pCR events

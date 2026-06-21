@@ -1,0 +1,10 @@
+Cohort and model	Endpoint	N / events	Effect estimate (95% CI)	P value	Adjustment	Interpretation
+GSE194040 antigen-presentation/CXCL9/HLA-II score	pCR	363 / 142	OR 1.85 (1.44-2.37)	<0.001	Treatment arm	Association within I-SPY2 treatment context
+GSE25066_RMA antigen-presentation/CXCL9/HLA-II score	pCR	170 / 57	OR 0.99 (0.72-1.37)	0.961	Cohort	No association in anthracycline/taxane context
+GSE25066_RMA proliferation score	pCR	170 / 57	OR 1.55 (1.10-2.18)	0.012	Cohort	Higher proliferation associated with pCR
+GSE163882 antigen-presentation/CXCL9/HLA-II score	pCR	90 / 38	OR 1.72 (1.08-2.71)	0.021	Unadjusted	Supportive association
+GSE163882 antigen-presentation/CXCL9/HLA-II score	pCR	90 / 38	OR 1.46 (0.86-2.47)	0.161	Proliferation	Association attenuated after proliferation adjustment
+Additional neoadjuvant cohorts, random-effects meta-analysis	pCR	5 cohorts	OR 1.22 (0.95-1.57)	0.118	Random-effects pooling	Positive but statistically inconclusive pooled estimate
+GSE25066_RMA antigen-presentation/CXCL9/HLA-II score	DRFS	178 / 64	HR 0.87 (0.69-1.10)	0.253	Cohort	No definitive recurrence association
+METABRIC antigen-presentation/CXCL9/HLA-II score	RFS	320 / 131	HR 0.75 (0.64-0.89)	<0.001	Age	Lower recurrence hazard
+METABRIC antigen-presentation/CXCL9/HLA-II score	RFS	233 / 95	HR 0.83 (0.68-1.01)	0.064	Age and stage; complete cases	Attenuated stage-adjusted sensitivity estimate

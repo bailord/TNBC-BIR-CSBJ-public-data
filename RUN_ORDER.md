@@ -1,7 +1,9 @@
-# Suggested run order
+# Run order
 
-1. Review signature definitions in `source_data/supplementary_tables/`.
-2. Configure local paths and public data locations as described in `scripts/analysis/README.md`.
-3. Run cohort-specific acquisition/preprocessing scripts only when rebuilding from public data.
-4. Run scoring/modeling scripts, then figure-generation scripts.
-5. Compare regenerated source tables and figures with the deposited source-data files.
+1. Prepare locked gene sets.
+2. Score bulk cohorts using the shared signature-scoring utility.
+3. Run I-SPY2/GSE194040 treatment-context models.
+4. Run GSE25066 RMA processing/audit and chemotherapy-context models.
+5. Run manual external NAC cohort mapping/meta-analysis and METABRIC survival analyses.
+6. Summarize GSE266919 single-cell source localization.
+7. Generate manuscript figures from the archived source-data TSV files.

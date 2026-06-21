@@ -1,9 +1,6 @@
-component	value
-Locked signatures	No outcome-trained genes or cutoffs
-APC/CXCL9/HLA-II axis	mean_z(HLAII, CXCL9/FOLR2 macrophage, DC/HLA antigen presentation)
-Primary response context	GSE194040/I-SPY2: treatment-adjusted association
-Negative chemotherapy context	GSE25066_RMA: antigen-presentation/CXCL9/HLA-II score null; proliferation positive
-Supportive caveat	GSE163882: supportive but proliferation-sensitive
-Recurrence biology	METABRIC: RFS biology support
-Cell-source support	GSE266919: module-specific source biology
-Claim boundary	State decomposition, not a general pCR-response assay
+panel	title	text
+1	Literature-anchored modules	Fixed gene sets spanning epithelial/plasticity, antigen-presentation, myeloid, proliferation, and cytolytic programs
+2	Fixed scoring	Gene-level z-scores and module means; antigen-presentation/CXCL9/HLA-II composite fixed after framework refinement
+3	Evidence across contexts	I-SPY2 internal association; GSE25066_RMA chemotherapy-context assessment; additional NAC cohorts; METABRIC recurrence
+4	Biological localization	GSE266919 single-cell data; Myeloid, dendritic-cell, macrophage, and B-cell localization of antigen-presentation programs
+boundary	Interpretation boundary	State-decomposition analysis, not a general pCR prediction assay

@@ -1,257 +1,257 @@
-record_type	signature	module_group	gene	expected_cell_source	role	priority	notes	dataset	n_signature_genes	n_genes_found	coverage	missing_genes	source_file	expression_source	annotation_note	platform	module
-locked_gene_set_definition	Basoluminal_plasticity	Tumor_axis	KRT5	malignant_epithelial	core	1	basal cytokeratin										
-locked_gene_set_definition	Basoluminal_plasticity	Tumor_axis	KRT7	malignant_epithelial	core	1	luminal cytokeratin; CK5/CK7 co-expression proxy										
-locked_gene_set_definition	Basoluminal_plasticity	Tumor_axis	KRT19	malignant_epithelial	core	2	epithelial/luminal cytokeratin										
-locked_gene_set_definition	Basoluminal_plasticity	Tumor_axis	ALDH1A3	malignant_epithelial	core	1	stem/progenitor-like marker										
-locked_gene_set_definition	Basoluminal_plasticity	Tumor_axis	SOX9	malignant_epithelial	core	1	stem/plasticity transcription factor										
-locked_gene_set_definition	Basoluminal_plasticity	Tumor_axis	TNFAIP3	malignant_epithelial	core	1	basoluminal-associated from supplement extraction										
-locked_gene_set_definition	Basoluminal_plasticity	Tumor_axis	EGFR	malignant_epithelial	core	2	basal/TNBC epithelial marker										
-locked_gene_set_definition	Basoluminal_plasticity	Tumor_axis	CD44	malignant_epithelial	core	2	stem/EMT-associated marker										
-locked_gene_set_definition	Basoluminal_plasticity	Tumor_axis	NOTCH1	malignant_epithelial	secondary	2	plasticity pathway										
-locked_gene_set_definition	Mast_cell	Immune_remodeling	TPSAB1	mast_cell	core	1	mast marker										
-locked_gene_set_definition	Mast_cell	Immune_remodeling	TPSB2	mast_cell	core	1	mast marker										
-locked_gene_set_definition	Mast_cell	Immune_remodeling	CPA3	mast_cell	core	1	mast marker										
-locked_gene_set_definition	Mast_cell	Immune_remodeling	MS4A2	mast_cell	core	1	FCER1 pathway mast/basophil marker										
-locked_gene_set_definition	Mast_cell	Immune_remodeling	KIT	mast_cell	secondary	2	mast marker										
-locked_gene_set_definition	Mast_cell	Immune_remodeling	HPGDS	mast_cell	secondary	2	from TNBC supplement markers										
-locked_gene_set_definition	Mast_cell	Immune_remodeling	GATA2	mast_cell	secondary	2	mast lineage TF										
-locked_gene_set_definition	Tfh_TLS_like	Immune_remodeling	CXCL13	CD4_Tfh_B_TLS	core	1	Tfh/TLS chemokine										
-locked_gene_set_definition	Tfh_TLS_like	Immune_remodeling	CXCR5	CD4_Tfh_B_TLS	core	1	Tfh marker										
-locked_gene_set_definition	Tfh_TLS_like	Immune_remodeling	DUSP4	CD4_Tfh_B_TLS	core	1	CD4_Tfh-DUSP4 marker										
-locked_gene_set_definition	Tfh_TLS_like	Immune_remodeling	IL6ST	CD4_Tfh_B_TLS	core	1	CD4_Tfh-IL6ST marker										
-locked_gene_set_definition	Tfh_TLS_like	Immune_remodeling	PDCD1	CD4_Tfh_CD8_Tex	secondary	2	activation/exhaustion marker; interpret with cell type										
-locked_gene_set_definition	Tfh_TLS_like	Immune_remodeling	TIGIT	T_cells	secondary	2	checkpoint; interpret with cell type										
-locked_gene_set_definition	Tfh_TLS_like	Immune_remodeling	CD40LG	CD4_Tfh	core	1	Tfh/B cell help										
-locked_gene_set_definition	Tfh_TLS_like	Immune_remodeling	SH2D1A	CD4_Tfh	secondary	2	Tfh-associated										
-locked_gene_set_definition	Tfh_TLS_like	Immune_remodeling	BCL6	CD4_Tfh	secondary	2	Tfh transcription factor										
-locked_gene_set_definition	Tfh_TLS_like	Immune_remodeling	TOX2	CD4_Tfh	secondary	2	Tfh-associated										
-locked_gene_set_definition	Tfh_TLS_like	Immune_remodeling	MS4A1	B_cell_TLS	secondary	2	B cell/TLS marker										
-locked_gene_set_definition	Tfh_TLS_like	Immune_remodeling	CD79A	B_cell_TLS	secondary	2	B cell/TLS marker										
-locked_gene_set_definition	Tfh_TLS_like	Immune_remodeling	CD79B	B_cell_TLS	secondary	2	B cell/TLS marker										
-locked_gene_set_definition	CD8_Tsem_memory	Immune_remodeling	EOMES	CD8_Tsem_memory	core	1	CD8_Tsem-EOMES marker										
-locked_gene_set_definition	CD8_Tsem_memory	Immune_remodeling	IL7R	CD8_T_memory	core	1	memory T marker										
-locked_gene_set_definition	CD8_Tsem_memory	Immune_remodeling	TCF7	CD8_stem_like_memory	core	1	stem-like memory T cell marker; verify expression in scRNA										
-locked_gene_set_definition	CD8_Tsem_memory	Immune_remodeling	GZMK	CD8_memory_effector	secondary	2	memory/effector marker										
-locked_gene_set_definition	CD8_Tsem_memory	Immune_remodeling	CXCR3	CD8_Tcell	secondary	2	chemokine receptor for CXCL9/10 axis										
-locked_gene_set_definition	CD8_Tsem_memory	Immune_remodeling	CCR7	naive_memory_T	secondary	2	memory/trafficking marker										
-locked_gene_set_definition	CXCL9_FOLR2_macrophage	Immune_remodeling	CXCL9	IFN_macrophage	core	1	pro-inflammatory macrophage chemokine										
-locked_gene_set_definition	CXCL9_FOLR2_macrophage	Immune_remodeling	CXCL10	IFN_macrophage	core	1	pro-inflammatory macrophage chemokine										
-locked_gene_set_definition	CXCL9_FOLR2_macrophage	Immune_remodeling	CCL3L1	IFN_macrophage	secondary	2	from Macro-CXCL9 marker extraction										
-locked_gene_set_definition	CXCL9_FOLR2_macrophage	Immune_remodeling	FOLR2	macrophage	core	1	FOLR2 macrophage state										
-locked_gene_set_definition	CXCL9_FOLR2_macrophage	Immune_remodeling	HLA-DQA1	antigen_presenting_macrophage	core	1	HLA-II macrophage/APC marker										
-locked_gene_set_definition	CXCL9_FOLR2_macrophage	Immune_remodeling	HLA-DRA	antigen_presenting_macrophage	core	1	HLA-II marker										
-locked_gene_set_definition	CXCL9_FOLR2_macrophage	Immune_remodeling	CD74	antigen_presenting_macrophage	core	1	HLA-II chaperone										
-locked_gene_set_definition	CXCL9_FOLR2_macrophage	Immune_remodeling	FCGR2A	macrophage	secondary	2	macrophage marker										
-locked_gene_set_definition	CXCL9_FOLR2_macrophage	Immune_remodeling	MAFB	macrophage	secondary	2	macrophage transcription factor										
-locked_gene_set_definition	CXCL9_FOLR2_macrophage	Immune_remodeling	C3	macrophage	secondary	2	complement/macrophage marker										
-locked_gene_set_definition	DC_HLA_antigen_presentation	Immune_remodeling	CLEC9A	cDC1	core	1	cDC1 marker										
-locked_gene_set_definition	DC_HLA_antigen_presentation	Immune_remodeling	XCR1	cDC1	core	1	cDC1 marker										
-locked_gene_set_definition	DC_HLA_antigen_presentation	Immune_remodeling	BATF3	cDC1	core	1	cDC1 transcription factor										
-locked_gene_set_definition	DC_HLA_antigen_presentation	Immune_remodeling	LAMP3	mature_DC	core	1	mature DC/TLS marker										
-locked_gene_set_definition	DC_HLA_antigen_presentation	Immune_remodeling	CCR7	mature_DC_Tcell	secondary	2	trafficking marker										
-locked_gene_set_definition	DC_HLA_antigen_presentation	Immune_remodeling	CCL19	mature_DC_TLS	secondary	2	TLS/CCR7 ligand										
-locked_gene_set_definition	DC_HLA_antigen_presentation	Immune_remodeling	HLA-DRB1	APC	core	1	HLA-II marker										
-locked_gene_set_definition	DC_HLA_antigen_presentation	Immune_remodeling	HLA-DRA	APC	core	1	HLA-II marker										
-locked_gene_set_definition	DC_HLA_antigen_presentation	Immune_remodeling	CD74	APC	core	1	HLA-II chaperone										
-locked_gene_set_definition	Suppressive_myeloid	Suppressive_axis	FN1	myeloid_stromal	core	1	Macro-FN1 / matrix program										
-locked_gene_set_definition	Suppressive_myeloid	Suppressive_axis	TGFBI	myeloid_stromal	core	1	TGF-beta-associated stromal/myeloid program										
-locked_gene_set_definition	Suppressive_myeloid	Suppressive_axis	CCL7	myeloid	secondary	2	myeloid chemokine										
-locked_gene_set_definition	Suppressive_myeloid	Suppressive_axis	RNASE1	myeloid	secondary	2	Macro-RNASE1 marker										
-locked_gene_set_definition	Suppressive_myeloid	Suppressive_axis	MRC1	macrophage	core	1	M2-like macrophage marker										
-locked_gene_set_definition	Suppressive_myeloid	Suppressive_axis	MT1X	myeloid_stress	secondary	2	Macro-MT1X marker										
-locked_gene_set_definition	Suppressive_myeloid	Suppressive_axis	NUPR1	myeloid_stress	secondary	2	stress program										
-locked_gene_set_definition	Suppressive_myeloid	Suppressive_axis	S100A8	monocyte_neutrophil	core	1	inflammatory suppressive myeloid marker										
-locked_gene_set_definition	Suppressive_myeloid	Suppressive_axis	S100A9	monocyte_neutrophil	core	1	inflammatory suppressive myeloid marker										
-locked_gene_set_definition	Suppressive_myeloid	Suppressive_axis	FCN1	monocyte	secondary	2	monocyte marker										
-locked_gene_set_definition	Suppressive_myeloid	Suppressive_axis	CD163	macrophage	core	1	M2-like macrophage marker										
-locked_gene_set_definition	Suppressive_myeloid	Suppressive_axis	MARCO	macrophage	secondary	2	suppressive macrophage marker										
-locked_gene_set_definition	Suppressive_myeloid	Suppressive_axis	SPP1	macrophage	core	1	suppressive/tumor-associated macrophage marker										
-locked_gene_set_definition	Proliferation	Control	MKI67	cycling_cells	control	1	proliferation control										
-locked_gene_set_definition	Proliferation	Control	TOP2A	cycling_cells	control	1	proliferation control										
-locked_gene_set_definition	Proliferation	Control	PCNA	cycling_cells	control	1	proliferation control										
-locked_gene_set_definition	Proliferation	Control	MCM2	cycling_cells	control	1	proliferation control										
-locked_gene_set_definition	Proliferation	Control	MCM4	cycling_cells	control	1	proliferation control										
-locked_gene_set_definition	Proliferation	Control	MCM6	cycling_cells	control	1	proliferation control										
-locked_gene_set_definition	Proliferation	Control	TYMS	cycling_cells	control	1	proliferation control										
-locked_gene_set_definition	Proliferation	Control	CCNB1	cycling_cells	control	1	proliferation control										
-locked_gene_set_definition	Proliferation	Control	CCNE1	cycling_cells	control	1	proliferation control										
-locked_gene_set_definition	Cytolytic	Control	GZMA	cytotoxic_T_NK	control	1	cytolytic activity control										
-locked_gene_set_definition	Cytolytic	Control	PRF1	cytotoxic_T_NK	control	1	cytolytic activity control										
-locked_gene_set_definition	HLAII	Control	HLA-DRA	APC	control	1	HLA-II control										
-locked_gene_set_definition	HLAII	Control	HLA-DRB1	APC	control	1	HLA-II control										
-locked_gene_set_definition	HLAII	Control	HLA-DQA1	APC	control	1	HLA-II control										
-locked_gene_set_definition	HLAII	Control	HLA-DQB1	APC	control	1	HLA-II control										
-locked_gene_set_definition	HLAII	Control	CD74	APC	control	1	HLA-II control										
-locked_gene_set_definition	TIM3_cell_source_check	Exploratory	HAVCR2	T_cell_macrophage_or_tumor	exploratory	3	do not use as bulk tumor-cell marker without scRNA evidence										
-locked_gene_set_definition	TIM3_cell_source_check	Exploratory	LGALS9	immune_stromal_tumor	exploratory	3	TIM3 ligand; interpret cautiously										
-locked_gene_set_definition	TIM3_cell_source_check	Exploratory	CEACAM1	immune_epithelial	exploratory	3	TIM3-related ligand/cofactor										
-cohort_signature_coverage	Basoluminal_plasticity							GSE194040	9	9	1		results/GSE194040_signature_coverage.tsv				
-cohort_signature_coverage	CD8_Tsem_memory							GSE194040	6	6	1		results/GSE194040_signature_coverage.tsv				
-cohort_signature_coverage	CXCL9_FOLR2_macrophage							GSE194040	10	9	0.9	CCL3L1	results/GSE194040_signature_coverage.tsv				
-cohort_signature_coverage	Cytolytic							GSE194040	2	2	1		results/GSE194040_signature_coverage.tsv				
-cohort_signature_coverage	DC_HLA_antigen_presentation							GSE194040	9	8	0.888888888888889	CLEC9A	results/GSE194040_signature_coverage.tsv				
-cohort_signature_coverage	HLAII							GSE194040	5	5	1		results/GSE194040_signature_coverage.tsv				
-cohort_signature_coverage	Mast_cell							GSE194040	7	6	0.857142857142857	TPSB2	results/GSE194040_signature_coverage.tsv				
-cohort_signature_coverage	Proliferation							GSE194040	9	9	1		results/GSE194040_signature_coverage.tsv				
-cohort_signature_coverage	Suppressive_myeloid							GSE194040	13	13	1		results/GSE194040_signature_coverage.tsv				
-cohort_signature_coverage	Tfh_TLS_like							GSE194040	13	13	1		results/GSE194040_signature_coverage.tsv				
-cohort_signature_coverage	TIM3_cell_source_check							GSE194040	3	3	1		results/GSE194040_signature_coverage.tsv				
-cohort_signature_coverage	Basoluminal_plasticity							GSE25066_RMA	9	9	1		results/GSE25066_RMA_signature_coverage.tsv				
-cohort_signature_coverage	CD8_Tsem_memory							GSE25066_RMA	6	5	0.833333333333333	EOMES	results/GSE25066_RMA_signature_coverage.tsv				
-cohort_signature_coverage	CXCL9_FOLR2_macrophage							GSE25066_RMA	10	9	0.9	CCL3L1	results/GSE25066_RMA_signature_coverage.tsv				
-cohort_signature_coverage	Cytolytic							GSE25066_RMA	2	2	1		results/GSE25066_RMA_signature_coverage.tsv				
-cohort_signature_coverage	DC_HLA_antigen_presentation							GSE25066_RMA	9	8	0.888888888888889	CLEC9A	results/GSE25066_RMA_signature_coverage.tsv				
-cohort_signature_coverage	HLAII							GSE25066_RMA	5	5	1		results/GSE25066_RMA_signature_coverage.tsv				
-cohort_signature_coverage	Mast_cell							GSE25066_RMA	7	7	1		results/GSE25066_RMA_signature_coverage.tsv				
-cohort_signature_coverage	Proliferation							GSE25066_RMA	9	9	1		results/GSE25066_RMA_signature_coverage.tsv				
-cohort_signature_coverage	Suppressive_myeloid							GSE25066_RMA	13	13	1		results/GSE25066_RMA_signature_coverage.tsv				
-cohort_signature_coverage	Tfh_TLS_like							GSE25066_RMA	13	11	0.846153846153846	TIGIT;TOX2	results/GSE25066_RMA_signature_coverage.tsv				
-cohort_signature_coverage	TIM3_cell_source_check							GSE25066_RMA	3	2	0.666666666666667	HAVCR2	results/GSE25066_RMA_signature_coverage.tsv				
-cohort_signature_coverage	Basoluminal_plasticity							METABRIC	9	9	1		results/METABRIC_signature_coverage.tsv				
-cohort_signature_coverage	CD8_Tsem_memory							METABRIC	6	6	1		results/METABRIC_signature_coverage.tsv				
-cohort_signature_coverage	CXCL9_FOLR2_macrophage							METABRIC	10	10	1		results/METABRIC_signature_coverage.tsv				
-cohort_signature_coverage	Cytolytic							METABRIC	2	2	1		results/METABRIC_signature_coverage.tsv				
-cohort_signature_coverage	DC_HLA_antigen_presentation							METABRIC	9	9	1		results/METABRIC_signature_coverage.tsv				
-cohort_signature_coverage	HLAII							METABRIC	5	5	1		results/METABRIC_signature_coverage.tsv				
-cohort_signature_coverage	Mast_cell							METABRIC	7	6	0.857142857142857	TPSB2	results/METABRIC_signature_coverage.tsv				
-cohort_signature_coverage	Proliferation							METABRIC	9	9	1		results/METABRIC_signature_coverage.tsv				
-cohort_signature_coverage	Suppressive_myeloid							METABRIC	13	13	1		results/METABRIC_signature_coverage.tsv				
-cohort_signature_coverage	Tfh_TLS_like							METABRIC	13	13	1		results/METABRIC_signature_coverage.tsv				
-cohort_signature_coverage	TIM3_cell_source_check							METABRIC	3	3	1		results/METABRIC_signature_coverage.tsv				
-cohort_signature_coverage	Basoluminal_plasticity							GSE41998	9	9	1		results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	CD8_Tsem_memory							GSE41998	6	5	0.833333333333333	EOMES	results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	CXCL9_FOLR2_macrophage							GSE41998	10	9	0.9	CCL3L1	results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	Cytolytic							GSE41998	2	2	1		results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	DC_HLA_antigen_presentation							GSE41998	9	8	0.888888888888889	CLEC9A	results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	HLAII							GSE41998	5	5	1		results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	Mast_cell							GSE41998	7	7	1		results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	Proliferation							GSE41998	9	9	1		results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	Suppressive_myeloid							GSE41998	13	13	1		results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	Tfh_TLS_like							GSE41998	13	11	0.846153846153846	TIGIT;TOX2	results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	TIM3_cell_source_check							GSE41998	3	2	0.666666666666667	HAVCR2	results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	APC_CXCL9_axis							GSE41998	24	22	0.888888888888889	CCL3L1;CLEC9A;	results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	Basoluminal_plasticity							GSE20194	9	9	1		results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	CD8_Tsem_memory							GSE20194	6	5	0.833333333333333	EOMES	results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	CXCL9_FOLR2_macrophage							GSE20194	10	9	0.9	CCL3L1	results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	Cytolytic							GSE20194	2	2	1		results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	DC_HLA_antigen_presentation							GSE20194	9	8	0.888888888888889	CLEC9A	results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	HLAII							GSE20194	5	5	1		results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	Mast_cell							GSE20194	7	7	1		results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	Proliferation							GSE20194	9	9	1		results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	Suppressive_myeloid							GSE20194	13	13	1		results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	Tfh_TLS_like							GSE20194	13	11	0.846153846153846	TIGIT;TOX2	results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	TIM3_cell_source_check							GSE20194	3	2	0.666666666666667	HAVCR2	results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	APC_CXCL9_axis							GSE20194	24	22	0.888888888888889	CCL3L1;CLEC9A;	results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	Basoluminal_plasticity							GSE22226	9	9	1		results/round4_external_signature_coverage.tsv	GEO_platform_series_matrix_GPL1708_highest_IQR_probe_collapse	GPL1708 old annotation GENE_SYMBOL from GSE22226_RAW.tar	GPL1708	
-cohort_signature_coverage	CD8_Tsem_memory							GSE22226	6	6	1		results/round4_external_signature_coverage.tsv	GEO_platform_series_matrix_GPL1708_highest_IQR_probe_collapse	GPL1708 old annotation GENE_SYMBOL from GSE22226_RAW.tar	GPL1708	
-cohort_signature_coverage	CXCL9_FOLR2_macrophage							GSE22226	10	9	0.9	CCL3L1	results/round4_external_signature_coverage.tsv	GEO_platform_series_matrix_GPL1708_highest_IQR_probe_collapse	GPL1708 old annotation GENE_SYMBOL from GSE22226_RAW.tar	GPL1708	
-cohort_signature_coverage	Cytolytic							GSE22226	2	2	1		results/round4_external_signature_coverage.tsv	GEO_platform_series_matrix_GPL1708_highest_IQR_probe_collapse	GPL1708 old annotation GENE_SYMBOL from GSE22226_RAW.tar	GPL1708	
-cohort_signature_coverage	DC_HLA_antigen_presentation							GSE22226	9	7	0.777777777777778	CLEC9A;BATF3	results/round4_external_signature_coverage.tsv	GEO_platform_series_matrix_GPL1708_highest_IQR_probe_collapse	GPL1708 old annotation GENE_SYMBOL from GSE22226_RAW.tar	GPL1708	
-cohort_signature_coverage	HLAII							GSE22226	5	5	1		results/round4_external_signature_coverage.tsv	GEO_platform_series_matrix_GPL1708_highest_IQR_probe_collapse	GPL1708 old annotation GENE_SYMBOL from GSE22226_RAW.tar	GPL1708	
-cohort_signature_coverage	Mast_cell							GSE22226	7	5	0.714285714285714	TPSAB1;HPGDS	results/round4_external_signature_coverage.tsv	GEO_platform_series_matrix_GPL1708_highest_IQR_probe_collapse	GPL1708 old annotation GENE_SYMBOL from GSE22226_RAW.tar	GPL1708	
-cohort_signature_coverage	Proliferation							GSE22226	9	9	1		results/round4_external_signature_coverage.tsv	GEO_platform_series_matrix_GPL1708_highest_IQR_probe_collapse	GPL1708 old annotation GENE_SYMBOL from GSE22226_RAW.tar	GPL1708	
-cohort_signature_coverage	Suppressive_myeloid							GSE22226	13	12	0.923076923076923	MRC1	results/round4_external_signature_coverage.tsv	GEO_platform_series_matrix_GPL1708_highest_IQR_probe_collapse	GPL1708 old annotation GENE_SYMBOL from GSE22226_RAW.tar	GPL1708	
-cohort_signature_coverage	Tfh_TLS_like							GSE22226	13	10	0.769230769230769	CXCR5;TIGIT;TOX2	results/round4_external_signature_coverage.tsv	GEO_platform_series_matrix_GPL1708_highest_IQR_probe_collapse	GPL1708 old annotation GENE_SYMBOL from GSE22226_RAW.tar	GPL1708	
-cohort_signature_coverage	TIM3_cell_source_check							GSE22226	3	3	1		results/round4_external_signature_coverage.tsv	GEO_platform_series_matrix_GPL1708_highest_IQR_probe_collapse	GPL1708 old annotation GENE_SYMBOL from GSE22226_RAW.tar	GPL1708	
-cohort_signature_coverage	APC_CXCL9_axis							GSE22226	24	21	0.777777777777778	CCL3L1;CLEC9A;BATF3;	results/round4_external_signature_coverage.tsv	GEO_platform_series_matrix_GPL1708_highest_IQR_probe_collapse	GPL1708 old annotation GENE_SYMBOL from GSE22226_RAW.tar	GPL1708	
-cohort_signature_coverage	Basoluminal_plasticity							GSE22226	9	9	1		results/round4_external_signature_coverage.tsv	GEO_platform_series_matrix_GPL4133_highest_IQR_probe_collapse	GPL4133 old annotation GENE_SYMBOL from GSE22226_RAW.tar	GPL4133	
-cohort_signature_coverage	CD8_Tsem_memory							GSE22226	6	6	1		results/round4_external_signature_coverage.tsv	GEO_platform_series_matrix_GPL4133_highest_IQR_probe_collapse	GPL4133 old annotation GENE_SYMBOL from GSE22226_RAW.tar	GPL4133	
-cohort_signature_coverage	CXCL9_FOLR2_macrophage							GSE22226	10	9	0.9	CCL3L1	results/round4_external_signature_coverage.tsv	GEO_platform_series_matrix_GPL4133_highest_IQR_probe_collapse	GPL4133 old annotation GENE_SYMBOL from GSE22226_RAW.tar	GPL4133	
-cohort_signature_coverage	Cytolytic							GSE22226	2	2	1		results/round4_external_signature_coverage.tsv	GEO_platform_series_matrix_GPL4133_highest_IQR_probe_collapse	GPL4133 old annotation GENE_SYMBOL from GSE22226_RAW.tar	GPL4133	
-cohort_signature_coverage	DC_HLA_antigen_presentation							GSE22226	9	8	0.888888888888889	CLEC9A	results/round4_external_signature_coverage.tsv	GEO_platform_series_matrix_GPL4133_highest_IQR_probe_collapse	GPL4133 old annotation GENE_SYMBOL from GSE22226_RAW.tar	GPL4133	
-cohort_signature_coverage	HLAII							GSE22226	5	5	1		results/round4_external_signature_coverage.tsv	GEO_platform_series_matrix_GPL4133_highest_IQR_probe_collapse	GPL4133 old annotation GENE_SYMBOL from GSE22226_RAW.tar	GPL4133	
-cohort_signature_coverage	Mast_cell							GSE22226	7	5	0.714285714285714	TPSB2;HPGDS	results/round4_external_signature_coverage.tsv	GEO_platform_series_matrix_GPL4133_highest_IQR_probe_collapse	GPL4133 old annotation GENE_SYMBOL from GSE22226_RAW.tar	GPL4133	
-cohort_signature_coverage	Proliferation							GSE22226	9	9	1		results/round4_external_signature_coverage.tsv	GEO_platform_series_matrix_GPL4133_highest_IQR_probe_collapse	GPL4133 old annotation GENE_SYMBOL from GSE22226_RAW.tar	GPL4133	
-cohort_signature_coverage	Suppressive_myeloid							GSE22226	13	12	0.923076923076923	MRC1	results/round4_external_signature_coverage.tsv	GEO_platform_series_matrix_GPL4133_highest_IQR_probe_collapse	GPL4133 old annotation GENE_SYMBOL from GSE22226_RAW.tar	GPL4133	
-cohort_signature_coverage	Tfh_TLS_like							GSE22226	13	13	1		results/round4_external_signature_coverage.tsv	GEO_platform_series_matrix_GPL4133_highest_IQR_probe_collapse	GPL4133 old annotation GENE_SYMBOL from GSE22226_RAW.tar	GPL4133	
-cohort_signature_coverage	TIM3_cell_source_check							GSE22226	3	3	1		results/round4_external_signature_coverage.tsv	GEO_platform_series_matrix_GPL4133_highest_IQR_probe_collapse	GPL4133 old annotation GENE_SYMBOL from GSE22226_RAW.tar	GPL4133	
-cohort_signature_coverage	APC_CXCL9_axis							GSE22226	24	22	0.888888888888889	CCL3L1;CLEC9A;	results/round4_external_signature_coverage.tsv	GEO_platform_series_matrix_GPL4133_highest_IQR_probe_collapse	GPL4133 old annotation GENE_SYMBOL from GSE22226_RAW.tar	GPL4133	
-cohort_signature_coverage	Basoluminal_plasticity							GSE32646	9	9	1		results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	CD8_Tsem_memory							GSE32646	6	6	1		results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	CXCL9_FOLR2_macrophage							GSE32646	10	9	0.9	CCL3L1	results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	Cytolytic							GSE32646	2	2	1		results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	DC_HLA_antigen_presentation							GSE32646	9	8	0.888888888888889	CLEC9A	results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	HLAII							GSE32646	5	5	1		results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	Mast_cell							GSE32646	7	7	1		results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	Proliferation							GSE32646	9	9	1		results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	Suppressive_myeloid							GSE32646	13	13	1		results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	Tfh_TLS_like							GSE32646	13	13	1		results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	TIM3_cell_source_check							GSE32646	3	3	1		results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	APC_CXCL9_axis							GSE32646	24	22	0.888888888888889	CCL3L1;CLEC9A;	results/round4_external_signature_coverage.tsv	GEO_series_matrix_highest_IQR_probe_collapse	symbol column: Gene symbol		
-cohort_signature_coverage	Basoluminal_plasticity							GSE163882	9	9	1		results/round4_external_signature_coverage.tsv	supplementary_TPM_ENSEMBL_orgHs_symbol	org.Hs.eg.db ENSEMBL-to-SYMBOL mapping		
-cohort_signature_coverage	CD8_Tsem_memory							GSE163882	6	6	1		results/round4_external_signature_coverage.tsv	supplementary_TPM_ENSEMBL_orgHs_symbol	org.Hs.eg.db ENSEMBL-to-SYMBOL mapping		
-cohort_signature_coverage	CXCL9_FOLR2_macrophage							GSE163882	10	10	1		results/round4_external_signature_coverage.tsv	supplementary_TPM_ENSEMBL_orgHs_symbol	org.Hs.eg.db ENSEMBL-to-SYMBOL mapping		
-cohort_signature_coverage	Cytolytic							GSE163882	2	2	1		results/round4_external_signature_coverage.tsv	supplementary_TPM_ENSEMBL_orgHs_symbol	org.Hs.eg.db ENSEMBL-to-SYMBOL mapping		
-cohort_signature_coverage	DC_HLA_antigen_presentation							GSE163882	9	9	1		results/round4_external_signature_coverage.tsv	supplementary_TPM_ENSEMBL_orgHs_symbol	org.Hs.eg.db ENSEMBL-to-SYMBOL mapping		
-cohort_signature_coverage	HLAII							GSE163882	5	5	1		results/round4_external_signature_coverage.tsv	supplementary_TPM_ENSEMBL_orgHs_symbol	org.Hs.eg.db ENSEMBL-to-SYMBOL mapping		
-cohort_signature_coverage	Mast_cell							GSE163882	7	7	1		results/round4_external_signature_coverage.tsv	supplementary_TPM_ENSEMBL_orgHs_symbol	org.Hs.eg.db ENSEMBL-to-SYMBOL mapping		
-cohort_signature_coverage	Proliferation							GSE163882	9	9	1		results/round4_external_signature_coverage.tsv	supplementary_TPM_ENSEMBL_orgHs_symbol	org.Hs.eg.db ENSEMBL-to-SYMBOL mapping		
-cohort_signature_coverage	Suppressive_myeloid							GSE163882	13	13	1		results/round4_external_signature_coverage.tsv	supplementary_TPM_ENSEMBL_orgHs_symbol	org.Hs.eg.db ENSEMBL-to-SYMBOL mapping		
-cohort_signature_coverage	Tfh_TLS_like							GSE163882	13	13	1		results/round4_external_signature_coverage.tsv	supplementary_TPM_ENSEMBL_orgHs_symbol	org.Hs.eg.db ENSEMBL-to-SYMBOL mapping		
-cohort_signature_coverage	TIM3_cell_source_check							GSE163882	3	3	1		results/round4_external_signature_coverage.tsv	supplementary_TPM_ENSEMBL_orgHs_symbol	org.Hs.eg.db ENSEMBL-to-SYMBOL mapping		
-cohort_signature_coverage	APC_CXCL9_axis							GSE163882	24	24	1	;;	results/round4_external_signature_coverage.tsv	supplementary_TPM_ENSEMBL_orgHs_symbol	org.Hs.eg.db ENSEMBL-to-SYMBOL mapping		
-cohort_signature_coverage								GSE266919	9	9	1		results/GSE266919_subcluster_signature_coverage.tsv				Basoluminal_plasticity
-cohort_signature_coverage								GSE266919	6	6	1		results/GSE266919_subcluster_signature_coverage.tsv				CD8_Tsem_memory
-cohort_signature_coverage								GSE266919	10	10	1		results/GSE266919_subcluster_signature_coverage.tsv				CXCL9_FOLR2_macrophage
-cohort_signature_coverage								GSE266919	2	2	1		results/GSE266919_subcluster_signature_coverage.tsv				Cytolytic
-cohort_signature_coverage								GSE266919	9	9	1		results/GSE266919_subcluster_signature_coverage.tsv				DC_HLA_antigen_presentation
-cohort_signature_coverage								GSE266919	5	5	1		results/GSE266919_subcluster_signature_coverage.tsv				HLAII
-cohort_signature_coverage								GSE266919	7	7	1		results/GSE266919_subcluster_signature_coverage.tsv				Mast_cell
-cohort_signature_coverage								GSE266919	9	9	1		results/GSE266919_subcluster_signature_coverage.tsv				Proliferation
-cohort_signature_coverage								GSE266919	13	13	1		results/GSE266919_subcluster_signature_coverage.tsv				Suppressive_myeloid
-cohort_signature_coverage								GSE266919	13	13	1		results/GSE266919_subcluster_signature_coverage.tsv				Tfh_TLS_like
-cohort_signature_coverage								GSE266919	5	5	1		results/GSE266919_subcluster_signature_coverage.tsv				mast_marker
-cohort_signature_coverage								GSE266919	8	8	1		results/GSE266919_subcluster_signature_coverage.tsv				tfh_tls_marker
-cohort_signature_coverage								GSE266919	6	6	1		results/GSE266919_subcluster_signature_coverage.tsv				cd8_tsem_marker
-cohort_signature_coverage								GSE266919	9	9	1		results/GSE266919_subcluster_signature_coverage.tsv				Basoluminal_plasticity
-cohort_signature_coverage								GSE266919	6	6	1		results/GSE266919_subcluster_signature_coverage.tsv				CD8_Tsem_memory
-cohort_signature_coverage								GSE266919	10	10	1		results/GSE266919_subcluster_signature_coverage.tsv				CXCL9_FOLR2_macrophage
-cohort_signature_coverage								GSE266919	2	2	1		results/GSE266919_subcluster_signature_coverage.tsv				Cytolytic
-cohort_signature_coverage								GSE266919	9	9	1		results/GSE266919_subcluster_signature_coverage.tsv				DC_HLA_antigen_presentation
-cohort_signature_coverage								GSE266919	5	5	1		results/GSE266919_subcluster_signature_coverage.tsv				HLAII
-cohort_signature_coverage								GSE266919	7	7	1		results/GSE266919_subcluster_signature_coverage.tsv				Mast_cell
-cohort_signature_coverage								GSE266919	9	9	1		results/GSE266919_subcluster_signature_coverage.tsv				Proliferation
-cohort_signature_coverage								GSE266919	13	13	1		results/GSE266919_subcluster_signature_coverage.tsv				Suppressive_myeloid
-cohort_signature_coverage								GSE266919	13	13	1		results/GSE266919_subcluster_signature_coverage.tsv				Tfh_TLS_like
-cohort_signature_coverage								GSE266919	5	5	1		results/GSE266919_subcluster_signature_coverage.tsv				mast_marker
-cohort_signature_coverage								GSE266919	8	8	1		results/GSE266919_subcluster_signature_coverage.tsv				tfh_tls_marker
-cohort_signature_coverage								GSE266919	6	6	1		results/GSE266919_subcluster_signature_coverage.tsv				cd8_tsem_marker
-cohort_signature_coverage								GSE266919	9	9	1		results/GSE266919_subcluster_signature_coverage.tsv				Basoluminal_plasticity
-cohort_signature_coverage								GSE266919	6	6	1		results/GSE266919_subcluster_signature_coverage.tsv				CD8_Tsem_memory
-cohort_signature_coverage								GSE266919	10	10	1		results/GSE266919_subcluster_signature_coverage.tsv				CXCL9_FOLR2_macrophage
-cohort_signature_coverage								GSE266919	2	2	1		results/GSE266919_subcluster_signature_coverage.tsv				Cytolytic
-cohort_signature_coverage								GSE266919	9	9	1		results/GSE266919_subcluster_signature_coverage.tsv				DC_HLA_antigen_presentation
-cohort_signature_coverage								GSE266919	5	5	1		results/GSE266919_subcluster_signature_coverage.tsv				HLAII
-cohort_signature_coverage								GSE266919	7	7	1		results/GSE266919_subcluster_signature_coverage.tsv				Mast_cell
-cohort_signature_coverage								GSE266919	9	9	1		results/GSE266919_subcluster_signature_coverage.tsv				Proliferation
-cohort_signature_coverage								GSE266919	13	13	1		results/GSE266919_subcluster_signature_coverage.tsv				Suppressive_myeloid
-cohort_signature_coverage								GSE266919	13	13	1		results/GSE266919_subcluster_signature_coverage.tsv				Tfh_TLS_like
-cohort_signature_coverage								GSE266919	5	5	1		results/GSE266919_subcluster_signature_coverage.tsv				mast_marker
-cohort_signature_coverage								GSE266919	8	8	1		results/GSE266919_subcluster_signature_coverage.tsv				tfh_tls_marker
-cohort_signature_coverage								GSE266919	6	6	1		results/GSE266919_subcluster_signature_coverage.tsv				cd8_tsem_marker
-cohort_signature_coverage								GSE266919	9	9	1		results/GSE266919_subcluster_signature_coverage.tsv				Basoluminal_plasticity
-cohort_signature_coverage								GSE266919	6	6	1		results/GSE266919_subcluster_signature_coverage.tsv				CD8_Tsem_memory
-cohort_signature_coverage								GSE266919	10	10	1		results/GSE266919_subcluster_signature_coverage.tsv				CXCL9_FOLR2_macrophage
-cohort_signature_coverage								GSE266919	2	2	1		results/GSE266919_subcluster_signature_coverage.tsv				Cytolytic
-cohort_signature_coverage								GSE266919	9	9	1		results/GSE266919_subcluster_signature_coverage.tsv				DC_HLA_antigen_presentation
-cohort_signature_coverage								GSE266919	5	5	1		results/GSE266919_subcluster_signature_coverage.tsv				HLAII
-cohort_signature_coverage								GSE266919	7	7	1		results/GSE266919_subcluster_signature_coverage.tsv				Mast_cell
-cohort_signature_coverage								GSE266919	9	9	1		results/GSE266919_subcluster_signature_coverage.tsv				Proliferation
-cohort_signature_coverage								GSE266919	13	13	1		results/GSE266919_subcluster_signature_coverage.tsv				Suppressive_myeloid
-cohort_signature_coverage								GSE266919	13	13	1		results/GSE266919_subcluster_signature_coverage.tsv				Tfh_TLS_like
-cohort_signature_coverage								GSE266919	5	5	1		results/GSE266919_subcluster_signature_coverage.tsv				mast_marker
-cohort_signature_coverage								GSE266919	8	8	1		results/GSE266919_subcluster_signature_coverage.tsv				tfh_tls_marker
-cohort_signature_coverage								GSE266919	6	6	1		results/GSE266919_subcluster_signature_coverage.tsv				cd8_tsem_marker
-cohort_signature_coverage								GSE266919	9	9	1		results/GSE266919_subcluster_signature_coverage.tsv				Basoluminal_plasticity
-cohort_signature_coverage								GSE266919	6	6	1		results/GSE266919_subcluster_signature_coverage.tsv				CD8_Tsem_memory
-cohort_signature_coverage								GSE266919	10	10	1		results/GSE266919_subcluster_signature_coverage.tsv				CXCL9_FOLR2_macrophage
-cohort_signature_coverage								GSE266919	2	2	1		results/GSE266919_subcluster_signature_coverage.tsv				Cytolytic
-cohort_signature_coverage								GSE266919	9	8	0.888888888888889	XCR1	results/GSE266919_subcluster_signature_coverage.tsv				DC_HLA_antigen_presentation
-cohort_signature_coverage								GSE266919	5	5	1		results/GSE266919_subcluster_signature_coverage.tsv				HLAII
-cohort_signature_coverage								GSE266919	7	6	0.857142857142857	MS4A2	results/GSE266919_subcluster_signature_coverage.tsv				Mast_cell
-cohort_signature_coverage								GSE266919	9	9	1		results/GSE266919_subcluster_signature_coverage.tsv				Proliferation
-cohort_signature_coverage								GSE266919	13	13	1		results/GSE266919_subcluster_signature_coverage.tsv				Suppressive_myeloid
-cohort_signature_coverage								GSE266919	13	13	1		results/GSE266919_subcluster_signature_coverage.tsv				Tfh_TLS_like
-cohort_signature_coverage								GSE266919	5	4	0.8	MS4A2	results/GSE266919_subcluster_signature_coverage.tsv				mast_marker
-cohort_signature_coverage								GSE266919	8	8	1		results/GSE266919_subcluster_signature_coverage.tsv				tfh_tls_marker
-cohort_signature_coverage								GSE266919	6	6	1		results/GSE266919_subcluster_signature_coverage.tsv				cd8_tsem_marker
+signature	module_group	gene	expected_cell_source	role	priority	notes	sheet	dataset	module	n_signature_genes	n_genes_found	coverage	missing_genes	platform	annotation_note
+Basoluminal_plasticity	Tumor_axis	KRT5	malignant_epithelial	core	1	basal cytokeratin	S1A_Locked_gene_sets								
+Basoluminal_plasticity	Tumor_axis	KRT7	malignant_epithelial	core	1	luminal cytokeratin; CK5/CK7 co-expression proxy	S1A_Locked_gene_sets								
+Basoluminal_plasticity	Tumor_axis	KRT19	malignant_epithelial	core	2	epithelial/luminal cytokeratin	S1A_Locked_gene_sets								
+Basoluminal_plasticity	Tumor_axis	ALDH1A3	malignant_epithelial	core	1	stem/progenitor-like marker	S1A_Locked_gene_sets								
+Basoluminal_plasticity	Tumor_axis	SOX9	malignant_epithelial	core	1	stem/plasticity transcription factor	S1A_Locked_gene_sets								
+Basoluminal_plasticity	Tumor_axis	TNFAIP3	malignant_epithelial	core	1	basoluminal-associated from supplement extraction	S1A_Locked_gene_sets								
+Basoluminal_plasticity	Tumor_axis	EGFR	malignant_epithelial	core	2	basal/TNBC epithelial marker	S1A_Locked_gene_sets								
+Basoluminal_plasticity	Tumor_axis	CD44	malignant_epithelial	core	2	stem/EMT-associated marker	S1A_Locked_gene_sets								
+Basoluminal_plasticity	Tumor_axis	NOTCH1	malignant_epithelial	secondary	2	plasticity pathway	S1A_Locked_gene_sets								
+Mast_cell	Immune_remodeling	TPSAB1	mast_cell	core	1	mast marker	S1A_Locked_gene_sets								
+Mast_cell	Immune_remodeling	TPSB2	mast_cell	core	1	mast marker	S1A_Locked_gene_sets								
+Mast_cell	Immune_remodeling	CPA3	mast_cell	core	1	mast marker	S1A_Locked_gene_sets								
+Mast_cell	Immune_remodeling	MS4A2	mast_cell	core	1	FCER1 pathway mast/basophil marker	S1A_Locked_gene_sets								
+Mast_cell	Immune_remodeling	KIT	mast_cell	secondary	2	mast marker	S1A_Locked_gene_sets								
+Mast_cell	Immune_remodeling	HPGDS	mast_cell	secondary	2	from TNBC supplement markers	S1A_Locked_gene_sets								
+Mast_cell	Immune_remodeling	GATA2	mast_cell	secondary	2	mast lineage TF	S1A_Locked_gene_sets								
+Tfh_TLS_like	Immune_remodeling	CXCL13	CD4_Tfh_B_TLS	core	1	Tfh/TLS chemokine	S1A_Locked_gene_sets								
+Tfh_TLS_like	Immune_remodeling	CXCR5	CD4_Tfh_B_TLS	core	1	Tfh marker	S1A_Locked_gene_sets								
+Tfh_TLS_like	Immune_remodeling	DUSP4	CD4_Tfh_B_TLS	core	1	CD4_Tfh-DUSP4 marker	S1A_Locked_gene_sets								
+Tfh_TLS_like	Immune_remodeling	IL6ST	CD4_Tfh_B_TLS	core	1	CD4_Tfh-IL6ST marker	S1A_Locked_gene_sets								
+Tfh_TLS_like	Immune_remodeling	PDCD1	CD4_Tfh_CD8_Tex	secondary	2	activation/exhaustion marker; interpret with cell type	S1A_Locked_gene_sets								
+Tfh_TLS_like	Immune_remodeling	TIGIT	T_cells	secondary	2	checkpoint; interpret with cell type	S1A_Locked_gene_sets								
+Tfh_TLS_like	Immune_remodeling	CD40LG	CD4_Tfh	core	1	Tfh/B cell help	S1A_Locked_gene_sets								
+Tfh_TLS_like	Immune_remodeling	SH2D1A	CD4_Tfh	secondary	2	Tfh-associated	S1A_Locked_gene_sets								
+Tfh_TLS_like	Immune_remodeling	BCL6	CD4_Tfh	secondary	2	Tfh transcription factor	S1A_Locked_gene_sets								
+Tfh_TLS_like	Immune_remodeling	TOX2	CD4_Tfh	secondary	2	Tfh-associated	S1A_Locked_gene_sets								
+Tfh_TLS_like	Immune_remodeling	MS4A1	B_cell_TLS	secondary	2	B cell/TLS marker	S1A_Locked_gene_sets								
+Tfh_TLS_like	Immune_remodeling	CD79A	B_cell_TLS	secondary	2	B cell/TLS marker	S1A_Locked_gene_sets								
+Tfh_TLS_like	Immune_remodeling	CD79B	B_cell_TLS	secondary	2	B cell/TLS marker	S1A_Locked_gene_sets								
+CD8_Tsem_memory	Immune_remodeling	EOMES	CD8_Tsem_memory	core	1	CD8_Tsem-EOMES marker	S1A_Locked_gene_sets								
+CD8_Tsem_memory	Immune_remodeling	IL7R	CD8_T_memory	core	1	memory T marker	S1A_Locked_gene_sets								
+CD8_Tsem_memory	Immune_remodeling	TCF7	CD8_stem_like_memory	core	1	stem-like memory T cell marker; verify expression in scRNA	S1A_Locked_gene_sets								
+CD8_Tsem_memory	Immune_remodeling	GZMK	CD8_memory_effector	secondary	2	memory/effector marker	S1A_Locked_gene_sets								
+CD8_Tsem_memory	Immune_remodeling	CXCR3	CD8_Tcell	secondary	2	chemokine receptor for CXCL9/10 axis	S1A_Locked_gene_sets								
+CD8_Tsem_memory	Immune_remodeling	CCR7	naive_memory_T	secondary	2	memory/trafficking marker	S1A_Locked_gene_sets								
+CXCL9_FOLR2_macrophage	Immune_remodeling	CXCL9	IFN_macrophage	core	1	pro-inflammatory macrophage chemokine	S1A_Locked_gene_sets								
+CXCL9_FOLR2_macrophage	Immune_remodeling	CXCL10	IFN_macrophage	core	1	pro-inflammatory macrophage chemokine	S1A_Locked_gene_sets								
+CXCL9_FOLR2_macrophage	Immune_remodeling	CCL3L1	IFN_macrophage	secondary	2	from Macro-CXCL9 marker extraction	S1A_Locked_gene_sets								
+CXCL9_FOLR2_macrophage	Immune_remodeling	FOLR2	macrophage	core	1	FOLR2 macrophage state	S1A_Locked_gene_sets								
+CXCL9_FOLR2_macrophage	Immune_remodeling	HLA-DQA1	antigen_presenting_macrophage	core	1	HLA-II macrophage/APC marker	S1A_Locked_gene_sets								
+CXCL9_FOLR2_macrophage	Immune_remodeling	HLA-DRA	antigen_presenting_macrophage	core	1	HLA-II marker	S1A_Locked_gene_sets								
+CXCL9_FOLR2_macrophage	Immune_remodeling	CD74	antigen_presenting_macrophage	core	1	HLA-II chaperone	S1A_Locked_gene_sets								
+CXCL9_FOLR2_macrophage	Immune_remodeling	FCGR2A	macrophage	secondary	2	macrophage marker	S1A_Locked_gene_sets								
+CXCL9_FOLR2_macrophage	Immune_remodeling	MAFB	macrophage	secondary	2	macrophage transcription factor	S1A_Locked_gene_sets								
+CXCL9_FOLR2_macrophage	Immune_remodeling	C3	macrophage	secondary	2	complement/macrophage marker	S1A_Locked_gene_sets								
+DC_HLA_antigen_presentation	Immune_remodeling	CLEC9A	cDC1	core	1	cDC1 marker	S1A_Locked_gene_sets								
+DC_HLA_antigen_presentation	Immune_remodeling	XCR1	cDC1	core	1	cDC1 marker	S1A_Locked_gene_sets								
+DC_HLA_antigen_presentation	Immune_remodeling	BATF3	cDC1	core	1	cDC1 transcription factor	S1A_Locked_gene_sets								
+DC_HLA_antigen_presentation	Immune_remodeling	LAMP3	mature_DC	core	1	mature DC/TLS marker	S1A_Locked_gene_sets								
+DC_HLA_antigen_presentation	Immune_remodeling	CCR7	mature_DC_Tcell	secondary	2	trafficking marker	S1A_Locked_gene_sets								
+DC_HLA_antigen_presentation	Immune_remodeling	CCL19	mature_DC_TLS	secondary	2	TLS/CCR7 ligand	S1A_Locked_gene_sets								
+DC_HLA_antigen_presentation	Immune_remodeling	HLA-DRB1	APC	core	1	HLA-II marker	S1A_Locked_gene_sets								
+DC_HLA_antigen_presentation	Immune_remodeling	HLA-DRA	APC	core	1	HLA-II marker	S1A_Locked_gene_sets								
+DC_HLA_antigen_presentation	Immune_remodeling	CD74	APC	core	1	HLA-II chaperone	S1A_Locked_gene_sets								
+Suppressive_myeloid	Suppressive_axis	FN1	myeloid_stromal	core	1	Macro-FN1 / matrix program	S1A_Locked_gene_sets								
+Suppressive_myeloid	Suppressive_axis	TGFBI	myeloid_stromal	core	1	TGF-beta-associated stromal/myeloid program	S1A_Locked_gene_sets								
+Suppressive_myeloid	Suppressive_axis	CCL7	myeloid	secondary	2	myeloid chemokine	S1A_Locked_gene_sets								
+Suppressive_myeloid	Suppressive_axis	RNASE1	myeloid	secondary	2	Macro-RNASE1 marker	S1A_Locked_gene_sets								
+Suppressive_myeloid	Suppressive_axis	MRC1	macrophage	core	1	M2-like macrophage marker	S1A_Locked_gene_sets								
+Suppressive_myeloid	Suppressive_axis	MT1X	myeloid_stress	secondary	2	Macro-MT1X marker	S1A_Locked_gene_sets								
+Suppressive_myeloid	Suppressive_axis	NUPR1	myeloid_stress	secondary	2	stress program	S1A_Locked_gene_sets								
+Suppressive_myeloid	Suppressive_axis	S100A8	monocyte_neutrophil	core	1	inflammatory suppressive myeloid marker	S1A_Locked_gene_sets								
+Suppressive_myeloid	Suppressive_axis	S100A9	monocyte_neutrophil	core	1	inflammatory suppressive myeloid marker	S1A_Locked_gene_sets								
+Suppressive_myeloid	Suppressive_axis	FCN1	monocyte	secondary	2	monocyte marker	S1A_Locked_gene_sets								
+Suppressive_myeloid	Suppressive_axis	CD163	macrophage	core	1	M2-like macrophage marker	S1A_Locked_gene_sets								
+Suppressive_myeloid	Suppressive_axis	MARCO	macrophage	secondary	2	suppressive macrophage marker	S1A_Locked_gene_sets								
+Suppressive_myeloid	Suppressive_axis	SPP1	macrophage	core	1	suppressive/tumor-associated macrophage marker	S1A_Locked_gene_sets								
+Proliferation	Control	MKI67	cycling_cells	control	1	proliferation control	S1A_Locked_gene_sets								
+Proliferation	Control	TOP2A	cycling_cells	control	1	proliferation control	S1A_Locked_gene_sets								
+Proliferation	Control	PCNA	cycling_cells	control	1	proliferation control	S1A_Locked_gene_sets								
+Proliferation	Control	MCM2	cycling_cells	control	1	proliferation control	S1A_Locked_gene_sets								
+Proliferation	Control	MCM4	cycling_cells	control	1	proliferation control	S1A_Locked_gene_sets								
+Proliferation	Control	MCM6	cycling_cells	control	1	proliferation control	S1A_Locked_gene_sets								
+Proliferation	Control	TYMS	cycling_cells	control	1	proliferation control	S1A_Locked_gene_sets								
+Proliferation	Control	CCNB1	cycling_cells	control	1	proliferation control	S1A_Locked_gene_sets								
+Proliferation	Control	CCNE1	cycling_cells	control	1	proliferation control	S1A_Locked_gene_sets								
+Cytolytic	Control	GZMA	cytotoxic_T_NK	control	1	cytolytic activity control	S1A_Locked_gene_sets								
+Cytolytic	Control	PRF1	cytotoxic_T_NK	control	1	cytolytic activity control	S1A_Locked_gene_sets								
+HLAII	Control	HLA-DRA	APC	control	1	HLA-II control	S1A_Locked_gene_sets								
+HLAII	Control	HLA-DRB1	APC	control	1	HLA-II control	S1A_Locked_gene_sets								
+HLAII	Control	HLA-DQA1	APC	control	1	HLA-II control	S1A_Locked_gene_sets								
+HLAII	Control	HLA-DQB1	APC	control	1	HLA-II control	S1A_Locked_gene_sets								
+HLAII	Control	CD74	APC	control	1	HLA-II control	S1A_Locked_gene_sets								
+TIM3_cell_source_check	Exploratory	HAVCR2	T_cell_macrophage_or_tumor	exploratory	3	do not use as bulk tumor-cell marker without scRNA evidence	S1A_Locked_gene_sets								
+TIM3_cell_source_check	Exploratory	LGALS9	immune_stromal_tumor	exploratory	3	TIM3 ligand; interpret cautiously	S1A_Locked_gene_sets								
+TIM3_cell_source_check	Exploratory	CEACAM1	immune_epithelial	exploratory	3	TIM3-related ligand/cofactor	S1A_Locked_gene_sets								
+Basoluminal_plasticity							S1B_Cohort_gene_coverage	GSE194040		9	9	1			
+CD8_Tsem_memory							S1B_Cohort_gene_coverage	GSE194040		6	6	1			
+CXCL9_FOLR2_macrophage							S1B_Cohort_gene_coverage	GSE194040		10	9	0.9	CCL3L1		
+Cytolytic							S1B_Cohort_gene_coverage	GSE194040		2	2	1			
+DC_HLA_antigen_presentation							S1B_Cohort_gene_coverage	GSE194040		9	8	0.888888888888889	CLEC9A		
+HLAII							S1B_Cohort_gene_coverage	GSE194040		5	5	1			
+Mast_cell							S1B_Cohort_gene_coverage	GSE194040		7	6	0.857142857142857	TPSB2		
+Proliferation							S1B_Cohort_gene_coverage	GSE194040		9	9	1			
+Suppressive_myeloid							S1B_Cohort_gene_coverage	GSE194040		13	13	1			
+Tfh_TLS_like							S1B_Cohort_gene_coverage	GSE194040		13	13	1			
+TIM3_cell_source_check							S1B_Cohort_gene_coverage	GSE194040		3	3	1			
+Basoluminal_plasticity							S1B_Cohort_gene_coverage	GSE25066_RMA		9	9	1			
+CD8_Tsem_memory							S1B_Cohort_gene_coverage	GSE25066_RMA		6	5	0.833333333333333	EOMES		
+CXCL9_FOLR2_macrophage							S1B_Cohort_gene_coverage	GSE25066_RMA		10	9	0.9	CCL3L1		
+Cytolytic							S1B_Cohort_gene_coverage	GSE25066_RMA		2	2	1			
+DC_HLA_antigen_presentation							S1B_Cohort_gene_coverage	GSE25066_RMA		9	8	0.888888888888889	CLEC9A		
+HLAII							S1B_Cohort_gene_coverage	GSE25066_RMA		5	5	1			
+Mast_cell							S1B_Cohort_gene_coverage	GSE25066_RMA		7	7	1			
+Proliferation							S1B_Cohort_gene_coverage	GSE25066_RMA		9	9	1			
+Suppressive_myeloid							S1B_Cohort_gene_coverage	GSE25066_RMA		13	13	1			
+Tfh_TLS_like							S1B_Cohort_gene_coverage	GSE25066_RMA		13	11	0.846153846153846	TIGIT;TOX2		
+TIM3_cell_source_check							S1B_Cohort_gene_coverage	GSE25066_RMA		3	2	0.666666666666667	HAVCR2		
+Basoluminal_plasticity							S1B_Cohort_gene_coverage	METABRIC		9	9	1			
+CD8_Tsem_memory							S1B_Cohort_gene_coverage	METABRIC		6	6	1			
+CXCL9_FOLR2_macrophage							S1B_Cohort_gene_coverage	METABRIC		10	10	1			
+Cytolytic							S1B_Cohort_gene_coverage	METABRIC		2	2	1			
+DC_HLA_antigen_presentation							S1B_Cohort_gene_coverage	METABRIC		9	9	1			
+HLAII							S1B_Cohort_gene_coverage	METABRIC		5	5	1			
+Mast_cell							S1B_Cohort_gene_coverage	METABRIC		7	6	0.857142857142857	TPSB2		
+Proliferation							S1B_Cohort_gene_coverage	METABRIC		9	9	1			
+Suppressive_myeloid							S1B_Cohort_gene_coverage	METABRIC		13	13	1			
+Tfh_TLS_like							S1B_Cohort_gene_coverage	METABRIC		13	13	1			
+TIM3_cell_source_check							S1B_Cohort_gene_coverage	METABRIC		3	3	1			
+Basoluminal_plasticity							S1B_Cohort_gene_coverage	GSE41998		9	9	1			symbol column: Gene symbol
+CD8_Tsem_memory							S1B_Cohort_gene_coverage	GSE41998		6	5	0.833333333333333	EOMES		symbol column: Gene symbol
+CXCL9_FOLR2_macrophage							S1B_Cohort_gene_coverage	GSE41998		10	9	0.9	CCL3L1		symbol column: Gene symbol
+Cytolytic							S1B_Cohort_gene_coverage	GSE41998		2	2	1			symbol column: Gene symbol
+DC_HLA_antigen_presentation							S1B_Cohort_gene_coverage	GSE41998		9	8	0.888888888888889	CLEC9A		symbol column: Gene symbol
+HLAII							S1B_Cohort_gene_coverage	GSE41998		5	5	1			symbol column: Gene symbol
+Mast_cell							S1B_Cohort_gene_coverage	GSE41998		7	7	1			symbol column: Gene symbol
+Proliferation							S1B_Cohort_gene_coverage	GSE41998		9	9	1			symbol column: Gene symbol
+Suppressive_myeloid							S1B_Cohort_gene_coverage	GSE41998		13	13	1			symbol column: Gene symbol
+Tfh_TLS_like							S1B_Cohort_gene_coverage	GSE41998		13	11	0.846153846153846	TIGIT;TOX2		symbol column: Gene symbol
+TIM3_cell_source_check							S1B_Cohort_gene_coverage	GSE41998		3	2	0.666666666666667	HAVCR2		symbol column: Gene symbol
+APC_CXCL9_axis							S1B_Cohort_gene_coverage	GSE41998		24	22	0.888888888888889	CCL3L1;CLEC9A;		symbol column: Gene symbol
+Basoluminal_plasticity							S1B_Cohort_gene_coverage	GSE20194		9	9	1			symbol column: Gene symbol
+CD8_Tsem_memory							S1B_Cohort_gene_coverage	GSE20194		6	5	0.833333333333333	EOMES		symbol column: Gene symbol
+CXCL9_FOLR2_macrophage							S1B_Cohort_gene_coverage	GSE20194		10	9	0.9	CCL3L1		symbol column: Gene symbol
+Cytolytic							S1B_Cohort_gene_coverage	GSE20194		2	2	1			symbol column: Gene symbol
+DC_HLA_antigen_presentation							S1B_Cohort_gene_coverage	GSE20194		9	8	0.888888888888889	CLEC9A		symbol column: Gene symbol
+HLAII							S1B_Cohort_gene_coverage	GSE20194		5	5	1			symbol column: Gene symbol
+Mast_cell							S1B_Cohort_gene_coverage	GSE20194		7	7	1			symbol column: Gene symbol
+Proliferation							S1B_Cohort_gene_coverage	GSE20194		9	9	1			symbol column: Gene symbol
+Suppressive_myeloid							S1B_Cohort_gene_coverage	GSE20194		13	13	1			symbol column: Gene symbol
+Tfh_TLS_like							S1B_Cohort_gene_coverage	GSE20194		13	11	0.846153846153846	TIGIT;TOX2		symbol column: Gene symbol
+TIM3_cell_source_check							S1B_Cohort_gene_coverage	GSE20194		3	2	0.666666666666667	HAVCR2		symbol column: Gene symbol
+APC_CXCL9_axis							S1B_Cohort_gene_coverage	GSE20194		24	22	0.888888888888889	CCL3L1;CLEC9A;		symbol column: Gene symbol
+Basoluminal_plasticity							S1B_Cohort_gene_coverage	GSE22226		9	9	1		GPL1708	GPL1708 old annotation GENE_SYMBOL from GSE22226_RAW.tar
+CD8_Tsem_memory							S1B_Cohort_gene_coverage	GSE22226		6	6	1		GPL1708	GPL1708 old annotation GENE_SYMBOL from GSE22226_RAW.tar
+CXCL9_FOLR2_macrophage							S1B_Cohort_gene_coverage	GSE22226		10	9	0.9	CCL3L1	GPL1708	GPL1708 old annotation GENE_SYMBOL from GSE22226_RAW.tar
+Cytolytic							S1B_Cohort_gene_coverage	GSE22226		2	2	1		GPL1708	GPL1708 old annotation GENE_SYMBOL from GSE22226_RAW.tar
+DC_HLA_antigen_presentation							S1B_Cohort_gene_coverage	GSE22226		9	7	0.777777777777778	CLEC9A;BATF3	GPL1708	GPL1708 old annotation GENE_SYMBOL from GSE22226_RAW.tar
+HLAII							S1B_Cohort_gene_coverage	GSE22226		5	5	1		GPL1708	GPL1708 old annotation GENE_SYMBOL from GSE22226_RAW.tar
+Mast_cell							S1B_Cohort_gene_coverage	GSE22226		7	5	0.714285714285714	TPSAB1;HPGDS	GPL1708	GPL1708 old annotation GENE_SYMBOL from GSE22226_RAW.tar
+Proliferation							S1B_Cohort_gene_coverage	GSE22226		9	9	1		GPL1708	GPL1708 old annotation GENE_SYMBOL from GSE22226_RAW.tar
+Suppressive_myeloid							S1B_Cohort_gene_coverage	GSE22226		13	12	0.923076923076923	MRC1	GPL1708	GPL1708 old annotation GENE_SYMBOL from GSE22226_RAW.tar
+Tfh_TLS_like							S1B_Cohort_gene_coverage	GSE22226		13	10	0.769230769230769	CXCR5;TIGIT;TOX2	GPL1708	GPL1708 old annotation GENE_SYMBOL from GSE22226_RAW.tar
+TIM3_cell_source_check							S1B_Cohort_gene_coverage	GSE22226		3	3	1		GPL1708	GPL1708 old annotation GENE_SYMBOL from GSE22226_RAW.tar
+APC_CXCL9_axis							S1B_Cohort_gene_coverage	GSE22226		24	21	0.777777777777778	CCL3L1;CLEC9A;BATF3;	GPL1708	GPL1708 old annotation GENE_SYMBOL from GSE22226_RAW.tar
+Basoluminal_plasticity							S1B_Cohort_gene_coverage	GSE22226		9	9	1		GPL4133	GPL4133 old annotation GENE_SYMBOL from GSE22226_RAW.tar
+CD8_Tsem_memory							S1B_Cohort_gene_coverage	GSE22226		6	6	1		GPL4133	GPL4133 old annotation GENE_SYMBOL from GSE22226_RAW.tar
+CXCL9_FOLR2_macrophage							S1B_Cohort_gene_coverage	GSE22226		10	9	0.9	CCL3L1	GPL4133	GPL4133 old annotation GENE_SYMBOL from GSE22226_RAW.tar
+Cytolytic							S1B_Cohort_gene_coverage	GSE22226		2	2	1		GPL4133	GPL4133 old annotation GENE_SYMBOL from GSE22226_RAW.tar
+DC_HLA_antigen_presentation							S1B_Cohort_gene_coverage	GSE22226		9	8	0.888888888888889	CLEC9A	GPL4133	GPL4133 old annotation GENE_SYMBOL from GSE22226_RAW.tar
+HLAII							S1B_Cohort_gene_coverage	GSE22226		5	5	1		GPL4133	GPL4133 old annotation GENE_SYMBOL from GSE22226_RAW.tar
+Mast_cell							S1B_Cohort_gene_coverage	GSE22226		7	5	0.714285714285714	TPSB2;HPGDS	GPL4133	GPL4133 old annotation GENE_SYMBOL from GSE22226_RAW.tar
+Proliferation							S1B_Cohort_gene_coverage	GSE22226		9	9	1		GPL4133	GPL4133 old annotation GENE_SYMBOL from GSE22226_RAW.tar
+Suppressive_myeloid							S1B_Cohort_gene_coverage	GSE22226		13	12	0.923076923076923	MRC1	GPL4133	GPL4133 old annotation GENE_SYMBOL from GSE22226_RAW.tar
+Tfh_TLS_like							S1B_Cohort_gene_coverage	GSE22226		13	13	1		GPL4133	GPL4133 old annotation GENE_SYMBOL from GSE22226_RAW.tar
+TIM3_cell_source_check							S1B_Cohort_gene_coverage	GSE22226		3	3	1		GPL4133	GPL4133 old annotation GENE_SYMBOL from GSE22226_RAW.tar
+APC_CXCL9_axis							S1B_Cohort_gene_coverage	GSE22226		24	22	0.888888888888889	CCL3L1;CLEC9A;	GPL4133	GPL4133 old annotation GENE_SYMBOL from GSE22226_RAW.tar
+Basoluminal_plasticity							S1B_Cohort_gene_coverage	GSE32646		9	9	1			symbol column: Gene symbol
+CD8_Tsem_memory							S1B_Cohort_gene_coverage	GSE32646		6	6	1			symbol column: Gene symbol
+CXCL9_FOLR2_macrophage							S1B_Cohort_gene_coverage	GSE32646		10	9	0.9	CCL3L1		symbol column: Gene symbol
+Cytolytic							S1B_Cohort_gene_coverage	GSE32646		2	2	1			symbol column: Gene symbol
+DC_HLA_antigen_presentation							S1B_Cohort_gene_coverage	GSE32646		9	8	0.888888888888889	CLEC9A		symbol column: Gene symbol
+HLAII							S1B_Cohort_gene_coverage	GSE32646		5	5	1			symbol column: Gene symbol
+Mast_cell							S1B_Cohort_gene_coverage	GSE32646		7	7	1			symbol column: Gene symbol
+Proliferation							S1B_Cohort_gene_coverage	GSE32646		9	9	1			symbol column: Gene symbol
+Suppressive_myeloid							S1B_Cohort_gene_coverage	GSE32646		13	13	1			symbol column: Gene symbol
+Tfh_TLS_like							S1B_Cohort_gene_coverage	GSE32646		13	13	1			symbol column: Gene symbol
+TIM3_cell_source_check							S1B_Cohort_gene_coverage	GSE32646		3	3	1			symbol column: Gene symbol
+APC_CXCL9_axis							S1B_Cohort_gene_coverage	GSE32646		24	22	0.888888888888889	CCL3L1;CLEC9A;		symbol column: Gene symbol
+Basoluminal_plasticity							S1B_Cohort_gene_coverage	GSE163882		9	9	1			org.Hs.eg.db ENSEMBL-to-SYMBOL mapping
+CD8_Tsem_memory							S1B_Cohort_gene_coverage	GSE163882		6	6	1			org.Hs.eg.db ENSEMBL-to-SYMBOL mapping
+CXCL9_FOLR2_macrophage							S1B_Cohort_gene_coverage	GSE163882		10	10	1			org.Hs.eg.db ENSEMBL-to-SYMBOL mapping
+Cytolytic							S1B_Cohort_gene_coverage	GSE163882		2	2	1			org.Hs.eg.db ENSEMBL-to-SYMBOL mapping
+DC_HLA_antigen_presentation							S1B_Cohort_gene_coverage	GSE163882		9	9	1			org.Hs.eg.db ENSEMBL-to-SYMBOL mapping
+HLAII							S1B_Cohort_gene_coverage	GSE163882		5	5	1			org.Hs.eg.db ENSEMBL-to-SYMBOL mapping
+Mast_cell							S1B_Cohort_gene_coverage	GSE163882		7	7	1			org.Hs.eg.db ENSEMBL-to-SYMBOL mapping
+Proliferation							S1B_Cohort_gene_coverage	GSE163882		9	9	1			org.Hs.eg.db ENSEMBL-to-SYMBOL mapping
+Suppressive_myeloid							S1B_Cohort_gene_coverage	GSE163882		13	13	1			org.Hs.eg.db ENSEMBL-to-SYMBOL mapping
+Tfh_TLS_like							S1B_Cohort_gene_coverage	GSE163882		13	13	1			org.Hs.eg.db ENSEMBL-to-SYMBOL mapping
+TIM3_cell_source_check							S1B_Cohort_gene_coverage	GSE163882		3	3	1			org.Hs.eg.db ENSEMBL-to-SYMBOL mapping
+APC_CXCL9_axis							S1B_Cohort_gene_coverage	GSE163882		24	24	1	;;		org.Hs.eg.db ENSEMBL-to-SYMBOL mapping
+							S1B_Cohort_gene_coverage	GSE266919	Basoluminal_plasticity	9	9	1			
+							S1B_Cohort_gene_coverage	GSE266919	CD8_Tsem_memory	6	6	1			
+							S1B_Cohort_gene_coverage	GSE266919	CXCL9_FOLR2_macrophage	10	10	1			
+							S1B_Cohort_gene_coverage	GSE266919	Cytolytic	2	2	1			
+							S1B_Cohort_gene_coverage	GSE266919	DC_HLA_antigen_presentation	9	9	1			
+							S1B_Cohort_gene_coverage	GSE266919	HLAII	5	5	1			
+							S1B_Cohort_gene_coverage	GSE266919	Mast_cell	7	7	1			
+							S1B_Cohort_gene_coverage	GSE266919	Proliferation	9	9	1			
+							S1B_Cohort_gene_coverage	GSE266919	Suppressive_myeloid	13	13	1			
+							S1B_Cohort_gene_coverage	GSE266919	Tfh_TLS_like	13	13	1			
+							S1B_Cohort_gene_coverage	GSE266919	mast_marker	5	5	1			
+							S1B_Cohort_gene_coverage	GSE266919	tfh_tls_marker	8	8	1			
+							S1B_Cohort_gene_coverage	GSE266919	cd8_tsem_marker	6	6	1			
+							S1B_Cohort_gene_coverage	GSE266919	Basoluminal_plasticity	9	9	1			
+							S1B_Cohort_gene_coverage	GSE266919	CD8_Tsem_memory	6	6	1			
+							S1B_Cohort_gene_coverage	GSE266919	CXCL9_FOLR2_macrophage	10	10	1			
+							S1B_Cohort_gene_coverage	GSE266919	Cytolytic	2	2	1			
+							S1B_Cohort_gene_coverage	GSE266919	DC_HLA_antigen_presentation	9	9	1			
+							S1B_Cohort_gene_coverage	GSE266919	HLAII	5	5	1			
+							S1B_Cohort_gene_coverage	GSE266919	Mast_cell	7	7	1			
+							S1B_Cohort_gene_coverage	GSE266919	Proliferation	9	9	1			
+							S1B_Cohort_gene_coverage	GSE266919	Suppressive_myeloid	13	13	1			
+							S1B_Cohort_gene_coverage	GSE266919	Tfh_TLS_like	13	13	1			
+							S1B_Cohort_gene_coverage	GSE266919	mast_marker	5	5	1			
+							S1B_Cohort_gene_coverage	GSE266919	tfh_tls_marker	8	8	1			
+							S1B_Cohort_gene_coverage	GSE266919	cd8_tsem_marker	6	6	1			
+							S1B_Cohort_gene_coverage	GSE266919	Basoluminal_plasticity	9	9	1			
+							S1B_Cohort_gene_coverage	GSE266919	CD8_Tsem_memory	6	6	1			
+							S1B_Cohort_gene_coverage	GSE266919	CXCL9_FOLR2_macrophage	10	10	1			
+							S1B_Cohort_gene_coverage	GSE266919	Cytolytic	2	2	1			
+							S1B_Cohort_gene_coverage	GSE266919	DC_HLA_antigen_presentation	9	9	1			
+							S1B_Cohort_gene_coverage	GSE266919	HLAII	5	5	1			
+							S1B_Cohort_gene_coverage	GSE266919	Mast_cell	7	7	1			
+							S1B_Cohort_gene_coverage	GSE266919	Proliferation	9	9	1			
+							S1B_Cohort_gene_coverage	GSE266919	Suppressive_myeloid	13	13	1			
+							S1B_Cohort_gene_coverage	GSE266919	Tfh_TLS_like	13	13	1			
+							S1B_Cohort_gene_coverage	GSE266919	mast_marker	5	5	1			
+							S1B_Cohort_gene_coverage	GSE266919	tfh_tls_marker	8	8	1			
+							S1B_Cohort_gene_coverage	GSE266919	cd8_tsem_marker	6	6	1			
+							S1B_Cohort_gene_coverage	GSE266919	Basoluminal_plasticity	9	9	1			
+							S1B_Cohort_gene_coverage	GSE266919	CD8_Tsem_memory	6	6	1			
+							S1B_Cohort_gene_coverage	GSE266919	CXCL9_FOLR2_macrophage	10	10	1			
+							S1B_Cohort_gene_coverage	GSE266919	Cytolytic	2	2	1			
+							S1B_Cohort_gene_coverage	GSE266919	DC_HLA_antigen_presentation	9	9	1			
+							S1B_Cohort_gene_coverage	GSE266919	HLAII	5	5	1			
+							S1B_Cohort_gene_coverage	GSE266919	Mast_cell	7	7	1			
+							S1B_Cohort_gene_coverage	GSE266919	Proliferation	9	9	1			
+							S1B_Cohort_gene_coverage	GSE266919	Suppressive_myeloid	13	13	1			
+							S1B_Cohort_gene_coverage	GSE266919	Tfh_TLS_like	13	13	1			
+							S1B_Cohort_gene_coverage	GSE266919	mast_marker	5	5	1			
+							S1B_Cohort_gene_coverage	GSE266919	tfh_tls_marker	8	8	1			
+							S1B_Cohort_gene_coverage	GSE266919	cd8_tsem_marker	6	6	1			
+							S1B_Cohort_gene_coverage	GSE266919	Basoluminal_plasticity	9	9	1			
+							S1B_Cohort_gene_coverage	GSE266919	CD8_Tsem_memory	6	6	1			
+							S1B_Cohort_gene_coverage	GSE266919	CXCL9_FOLR2_macrophage	10	10	1			
+							S1B_Cohort_gene_coverage	GSE266919	Cytolytic	2	2	1			
+							S1B_Cohort_gene_coverage	GSE266919	DC_HLA_antigen_presentation	9	8	0.888888888888889	XCR1		
+							S1B_Cohort_gene_coverage	GSE266919	HLAII	5	5	1			
+							S1B_Cohort_gene_coverage	GSE266919	Mast_cell	7	6	0.857142857142857	MS4A2		
+							S1B_Cohort_gene_coverage	GSE266919	Proliferation	9	9	1			
+							S1B_Cohort_gene_coverage	GSE266919	Suppressive_myeloid	13	13	1			
+							S1B_Cohort_gene_coverage	GSE266919	Tfh_TLS_like	13	13	1			
+							S1B_Cohort_gene_coverage	GSE266919	mast_marker	5	4	0.8	MS4A2		
+							S1B_Cohort_gene_coverage	GSE266919	tfh_tls_marker	8	8	1			
+							S1B_Cohort_gene_coverage	GSE266919	cd8_tsem_marker	6	6	1			
