@@ -1,0 +1,15 @@
+Cohort and score	Endpoint	N / events	Effect estimate (95% CI)	P value	Adjustment	Interpretation	Source key
+GSE194040 / I-SPY2 (internal)	pCR	363 / 142	OR 1.85 (1.44-2.37)	<0.001	Treatment arm	Strong internal context association	GSE194040|pCR|axis_treatment_adjusted|APC_CXCL9_axis
+GSE25066 RMA	pCR	170 / 57	OR 0.99 (0.72-1.37)	0.961	Source cohort	No association in chemotherapy context	GSE25066_RMA|pCR|pCR_APC_CXCL9_axis|APC_CXCL9_axis
+GSE163882	pCR	90 / 38	OR 1.72 (1.08-2.71)	0.021	Unadjusted	Supportive but proliferation-sensitive	GSE163882|pCR|axis_only|APC_CXCL9_axis
+GSE41998	pCR	125 / 51	OR 1.29 (0.89-1.87)	0.171	Unadjusted	Directionally favorable; inconclusive	GSE41998|pCR|axis_only|APC_CXCL9_axis
+GSE20194	pCR	65 / 23	OR 0.93 (0.56-1.55)	0.781	Unadjusted	Null/non-supportive	GSE20194|pCR|axis_only|APC_CXCL9_axis
+GSE22226 / I-SPY1	pCR	29 / 8	OR 0.87 (0.37-2.05)	0.751	Platform	Underpowered external estimate	GSE22226|pCR|axis_only|APC_CXCL9_axis
+GSE32646	pCR	26 / 10	OR 0.97 (0.44-2.18)	0.948	Unadjusted	Underpowered external estimate	GSE32646|pCR|axis_only|APC_CXCL9_axis
+Five external NAC cohorts (REML)	pCR	5 cohorts	OR 1.22 (0.95-1.57)	0.118	Random-effects meta-analysis (REML; k=5)	Directionally favorable; statistically inconclusive	Additional NAC cohorts (meta-analysis)|pCR|random_effects_meta|APC_CXCL9_axis
+GSE25066 RMA - proliferation	pCR	170 / 57	OR 1.55 (1.10-2.18)	0.012	Source cohort	Proliferation comparator	GSE25066_RMA|pCR|pCR_Proliferation|Proliferation
+GSE20194 - proliferation	pCR	65 / 23	OR 2.06 (1.13-3.75)	0.018	Unadjusted	Proliferation comparator	GSE20194|pCR|proliferation_only|Proliferation
+GSE163882 - proliferation	pCR	90 / 38	OR 1.69 (1.06-2.70)	0.028	Unadjusted	Proliferation comparator	GSE163882|pCR|proliferation_only|Proliferation
+GSE25066 RMA - DRFS	DRFS	178 / 64	HR 0.87 (0.69-1.10)	0.253	Source cohort	Recurrence association	GSE25066_RMA|DRFS|DRFS_APC_CXCL9_axis|APC_CXCL9_axis
+METABRIC - RFS, age adjusted	RFS	320 / 131	HR 0.75 (0.64-0.89)	<0.001	Age	Recurrence association	METABRIC|RFS|axis_age_adjusted|APC_CXCL9_axis
+METABRIC - RFS, age + stage	RFS	233 / 95	HR 0.83 (0.68-1.01)	0.064	Age and stage (complete cases)	Complete-case sensitivity	METABRIC|RFS|axis_age_stage_adjusted_complete_case|APC_CXCL9_axis

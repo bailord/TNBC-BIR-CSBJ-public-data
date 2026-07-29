@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='864.00pt' height='446.40pt' viewBox='0 0 864.00 446.40'>
+<g class='svglite'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHw4NjQuMDB8MC4wMHw0NDYuNDA='>
+    <rect x='0.00' y='0.00' width='864.00' height='446.40' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw4NjQuMDB8MC4wMHw0NDYuNDA=)'>
+<rect x='0.00' y='0.00' width='864.00' height='446.40' style='stroke-width: 0.00; stroke: none;' />
+<line x1='96.29' y1='81.04' x2='783.54' y2='81.04' style='stroke-width: 1.39; stroke: #A7B0B6; stroke-linecap: butt;' />
+<polygon points='776.69,85.00 783.54,81.04 776.69,77.08 ' style='stroke-width: 1.39; stroke: #A7B0B6; stroke-linecap: butt; fill: #A7B0B6;' />
+<line x1='219.81' y1='370.66' x2='219.81' y2='39.29' style='stroke-width: 0.96; stroke: #D7DCDF; stroke-linecap: butt;' />
+<line x1='390.83' y1='370.66' x2='390.83' y2='39.29' style='stroke-width: 0.96; stroke: #D7DCDF; stroke-linecap: butt;' />
+<line x1='612.52' y1='370.66' x2='612.52' y2='39.29' style='stroke-width: 0.96; stroke: #D7DCDF; stroke-linecap: butt;' />
+<circle cx='99.46' cy='81.04' r='6.04' style='stroke-width: 1.20; stroke: #FFFFFF; fill: #173B57;' />
+<circle cx='245.14' cy='81.04' r='6.04' style='stroke-width: 1.20; stroke: #FFFFFF; fill: #2A8C82;' />
+<circle cx='416.16' cy='81.04' r='6.04' style='stroke-width: 1.20; stroke: #FFFFFF; fill: #2878A5;' />
+<circle cx='631.52' cy='81.04' r='6.04' style='stroke-width: 1.20; stroke: #FFFFFF; fill: #D97925;' />
+<text x='99.46' y='84.52' text-anchor='middle' style='font-size: 9.67px; font-weight: bold;fill: #FFFFFF; font-family: "Helvetica";' textLength='5.38px' lengthAdjust='spacingAndGlyphs'>1</text>
+<text x='245.14' y='84.52' text-anchor='middle' style='font-size: 9.67px; font-weight: bold;fill: #FFFFFF; font-family: "Helvetica";' textLength='5.38px' lengthAdjust='spacingAndGlyphs'>2</text>
+<text x='416.16' y='84.52' text-anchor='middle' style='font-size: 9.67px; font-weight: bold;fill: #FFFFFF; font-family: "Helvetica";' textLength='5.38px' lengthAdjust='spacingAndGlyphs'>3</text>
+<text x='631.52' y='84.52' text-anchor='middle' style='font-size: 9.67px; font-weight: bold;fill: #FFFFFF; font-family: "Helvetica";' textLength='5.38px' lengthAdjust='spacingAndGlyphs'>4</text>
+<text x='141.90' y='52.05' text-anchor='middle' style='font-size: 11.52px; font-weight: bold;fill: #173B57; font-family: "Helvetica";' textLength='159.31px' lengthAdjust='spacingAndGlyphs'>Literature-anchored modules</text>
+<text x='305.32' y='52.05' text-anchor='middle' style='font-size: 11.52px; font-weight: bold;fill: #173B57; font-family: "Helvetica";' textLength='141.39px' lengthAdjust='spacingAndGlyphs'>Cohort-wise fixed scoring</text>
+<text x='500.41' y='52.05' text-anchor='middle' style='font-size: 11.52px; font-weight: bold;fill: #173B57; font-family: "Helvetica";' textLength='105.64px' lengthAdjust='spacingAndGlyphs'>Evidence hierarchy</text>
+<text x='701.20' y='52.05' text-anchor='middle' style='font-size: 11.52px; font-weight: bold;fill: #173B57; font-family: "Helvetica";' textLength='129.86px' lengthAdjust='spacingAndGlyphs'>Interpretation boundary</text>
+<text x='72.22' y='124.03' style='font-size: 8.96px; font-weight: bold;fill: #4D555B; font-family: "Helvetica";' textLength='112.94px' lengthAdjust='spacingAndGlyphs'>Initial state decomposition</text>
+<line x1='73.49' y1='240.10' x2='73.49' y2='143.34' style='stroke-width: 5.12; stroke: #2878A5;' />
+<text x='83.62' y='156.75' style='font-size: 8.54px;fill: #4D555B; font-family: "Helvetica";' textLength='87.30px' lengthAdjust='spacingAndGlyphs'>Basoluminal / epithelial</text>
+<text x='83.62' y='169.55' style='font-size: 8.54px;fill: #4D555B; font-family: "Helvetica";' textLength='75.45px' lengthAdjust='spacingAndGlyphs'>Immune remodeling</text>
+<text x='83.62' y='182.36' style='font-size: 8.54px;fill: #4D555B; font-family: "Helvetica";' textLength='78.75px' lengthAdjust='spacingAndGlyphs'>Suppressive myeloid</text>
+<text x='83.62' y='195.16' style='font-size: 8.54px;fill: #4D555B; font-family: "Helvetica";' textLength='83.02px' lengthAdjust='spacingAndGlyphs'>Proliferation / cytolytic</text>
+<text x='72.22' y='276.46' style='font-size: 8.96px; font-weight: bold;fill: #173B57; font-family: "Helvetica";' textLength='132.36px' lengthAdjust='spacingAndGlyphs'>Antigen-presentation summary</text>
+<line x1='73.49' y1='359.39' x2='73.49' y2='292.46' style='stroke-width: 5.12; stroke: #2A8C82;' />
+<text x='83.62' y='305.87' style='font-size: 8.54px;fill: #4D555B; font-family: "Helvetica";' textLength='24.19px' lengthAdjust='spacingAndGlyphs'>HLA-II</text>
+<text x='83.62' y='318.67' style='font-size: 8.54px;fill: #4D555B; font-family: "Helvetica";' textLength='111.98px' lengthAdjust='spacingAndGlyphs'>CXCL9 / FOLR2 macrophage</text>
+<text x='83.62' y='331.47' style='font-size: 8.54px;fill: #4D555B; font-family: "Helvetica";' textLength='73.03px' lengthAdjust='spacingAndGlyphs'>Dendritic-cell / HLA</text>
+<text x='238.81' y='128.67' style='font-size: 8.96px; font-weight: bold;fill: #4D555B; font-family: "Helvetica";' textLength='113.98px' lengthAdjust='spacingAndGlyphs'>Gene-level standardization</text>
+<text x='238.81' y='159.70' style='font-size: 8.68px;fill: #173B57; font-family: "Helvetica";' textLength='145.36px' lengthAdjust='spacingAndGlyphs'>z(g,i) = [x(g,i) - gene mean] / gene SD</text>
+<text x='238.81' y='207.98' style='font-size: 8.39px;fill: #4D555B; font-family: "Helvetica";' textLength='162.64px' lengthAdjust='spacingAndGlyphs'>Module(k,i) = mean available gene z-scores</text>
+<text x='238.81' y='249.07' style='font-size: 8.39px;fill: #4D555B; font-family: "Helvetica";' textLength='206.38px' lengthAdjust='spacingAndGlyphs'>Summary(i) = mean z(HLA-II, CXCL9/FOLR2, DC/HLA)</text>
+<line x1='238.81' y1='281.19' x2='371.83' y2='281.19' style='stroke-width: 1.07; stroke: #CDD3D7; stroke-linecap: butt;' />
+<text x='238.81' y='312.00' style='font-size: 8.25px; font-weight: bold;fill: #D97925; font-family: "Helvetica";' textLength='113.52px' lengthAdjust='spacingAndGlyphs'>Shared HLA genes disclosed</text>
+<text x='238.81' y='344.96' style='font-size: 7.82px;fill: #4D555B; font-family: "Helvetica";' textLength='171.55px' lengthAdjust='spacingAndGlyphs'>Coverage checked; weights fixed after refinement</text>
+<circle cx='414.26' cy='125.45' r='3.91' style='stroke-width: 0.99; stroke: #FFFFFF; fill: #2878A5;' />
+<circle cx='414.26' cy='176.48' r='3.91' style='stroke-width: 0.99; stroke: #FFFFFF; fill: #173B57;' />
+<circle cx='414.26' cy='227.51' r='3.91' style='stroke-width: 0.99; stroke: #FFFFFF; fill: #2A8C82;' />
+<circle cx='414.26' cy='278.54' r='3.91' style='stroke-width: 0.99; stroke: #FFFFFF; fill: #2A8C82;' />
+<circle cx='414.26' cy='329.57' r='3.91' style='stroke-width: 0.99; stroke: #FFFFFF; fill: #D97925;' />
+<text x='428.83' y='123.96' style='font-size: 8.25px; font-weight: bold;fill: #4D555B; font-family: "Helvetica";' textLength='78.02px' lengthAdjust='spacingAndGlyphs'>GSE194040 / I-SPY2</text>
+<text x='428.83' y='174.99' style='font-size: 8.25px; font-weight: bold;fill: #4D555B; font-family: "Helvetica";' textLength='61.47px' lengthAdjust='spacingAndGlyphs'>GSE25066 RMA</text>
+<text x='428.83' y='226.02' style='font-size: 8.25px; font-weight: bold;fill: #4D555B; font-family: "Helvetica";' textLength='102.05px' lengthAdjust='spacingAndGlyphs'>Five NAC cohorts + REML</text>
+<text x='428.83' y='277.05' style='font-size: 8.25px; font-weight: bold;fill: #4D555B; font-family: "Helvetica";' textLength='42.92px' lengthAdjust='spacingAndGlyphs'>METABRIC</text>
+<text x='428.83' y='328.09' style='font-size: 8.25px; font-weight: bold;fill: #4D555B; font-family: "Helvetica";' textLength='44.98px' lengthAdjust='spacingAndGlyphs'>GSE266919</text>
+<text x='428.83' y='134.03' style='font-size: 7.26px;fill: #2878A5; font-family: "Helvetica";' textLength='62.06px' lengthAdjust='spacingAndGlyphs'>internal association</text>
+<text x='428.83' y='185.07' style='font-size: 7.26px;fill: #173B57; font-family: "Helvetica";' textLength='101.58px' lengthAdjust='spacingAndGlyphs'>independent chemotherapy test</text>
+<text x='428.83' y='236.10' style='font-size: 7.26px;fill: #2A8C82; font-family: "Helvetica";' textLength='58.03px' lengthAdjust='spacingAndGlyphs'>external synthesis</text>
+<text x='428.83' y='287.13' style='font-size: 7.26px;fill: #2A8C82; font-family: "Helvetica";' textLength='59.66px' lengthAdjust='spacingAndGlyphs'>recurrence biology</text>
+<text x='428.83' y='338.16' style='font-size: 7.26px;fill: #D97925; font-family: "Helvetica";' textLength='72.94px' lengthAdjust='spacingAndGlyphs'>cell-source localization</text>
+<text x='629.62' y='127.39' style='font-size: 9.10px; font-weight: bold;fill: #2A8C82; font-family: "Helvetica";' textLength='106.69px' lengthAdjust='spacingAndGlyphs'>Supported interpretation</text>
+<text x='629.62' y='158.54' style='font-size: 8.25px;fill: #4D555B; font-family: "Helvetica";' textLength='168.05px' lengthAdjust='spacingAndGlyphs'>Context-dependent antigen-presentation state</text>
+<text x='629.62' y='170.81' style='font-size: 8.25px;fill: #4D555B; font-family: "Helvetica";' textLength='135.88px' lengthAdjust='spacingAndGlyphs'>Chemotherapy-context heterogeneity</text>
+<text x='629.62' y='183.09' style='font-size: 8.25px;fill: #4D555B; font-family: "Helvetica";' textLength='123.89px' lengthAdjust='spacingAndGlyphs'>Immune-compartment localization</text>
+<text x='629.62' y='267.89' style='font-size: 9.10px; font-weight: bold;fill: #D97925; font-family: "Helvetica";' textLength='67.78px' lengthAdjust='spacingAndGlyphs'>Not established</text>
+<text x='629.62' y='299.04' style='font-size: 8.25px;fill: #4D555B; font-family: "Helvetica";' textLength='91.28px' lengthAdjust='spacingAndGlyphs'>Universal pCR prediction</text>
+<text x='629.62' y='311.32' style='font-size: 8.25px;fill: #4D555B; font-family: "Helvetica";' textLength='133.14px' lengthAdjust='spacingAndGlyphs'>Independent component dimensions</text>
+<text x='629.62' y='323.59' style='font-size: 8.25px;fill: #4D555B; font-family: "Helvetica";' textLength='47.67px' lengthAdjust='spacingAndGlyphs'>Clinical utility</text>
+<text x='72.22' y='398.20' style='font-size: 8.39px; font-weight: bold;fill: #173B57; font-family: "Helvetica";' textLength='82.55px' lengthAdjust='spacingAndGlyphs'>Analysis chronology</text>
+<text x='178.63' y='398.03' style='font-size: 7.97px;fill: #4D555B; font-family: "Helvetica";' textLength='342.95px' lengthAdjust='spacingAndGlyphs'>internal association  |  independent negative context  |  external synthesis  |  biological localization</text>
+</g>
+</g>
+</svg>

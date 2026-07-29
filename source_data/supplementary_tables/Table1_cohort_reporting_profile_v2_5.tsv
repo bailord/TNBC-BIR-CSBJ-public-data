@@ -1,0 +1,10 @@
+Dataset	Material/platform	Treatment/context	TNBC definition	Endpoint	Analyzed N/events	Evidence role	Principal limitation
+GSE194040/I-SPY2	Pretreatment tumor; Agilent microarray	Multi-arm neoadjuvant I-SPY2	HR-negative/HER2-negative proxy	pCR	363 / 142 pCR	Internal treatment-context association	Contributed to framework refinement; not independent validation
+GSE25066_RMA	Pretreatment biopsies; Affymetrix HG-U133A CEL/RMA	Anthracycline/taxane chemotherapy	ER-negative/PR-negative/HER2-negative	pCR; DRFS	170 / 57 pCR; 178 / 64 DRFS	Principal independent chemotherapy-context assessment	Historical regimen and combined source cohorts
+GSE163882	FFPE pretreatment biopsies; RNA-seq TPM	Multicenter neoadjuvant chemotherapy	Deposited clinical TNBC annotation	pCR	90 / 38 pCR	Additional external NAC cohort	Association attenuated after proliferation adjustment
+GSE41998	Pretreatment core biopsies; microarray	AC followed by ixabepilone or paclitaxel	Receptor-negative TNBC	pCR	125 / 51 pCR	Additional external NAC cohort	Directionally favorable, imprecise estimate
+GSE20194	Pretreatment fine-needle aspirates; HG-U133A	Paclitaxel followed by FAC	Receptor-negative TNBC	pCR	65 / 23 pCR	Additional external NAC cohort	High tumor-cell content; proliferation-dominant signal
+GSE22226/I-SPY1	Pretreatment tumors; two Agilent platforms	Neoadjuvant AC with optional taxane	Mapped TNBC subset	pCR	29 / 8 pCR	Additional external NAC cohort	Underpowered; platform-adjusted estimate
+GSE32646	Pretreatment core biopsies; HG-U133 Plus 2.0	Paclitaxel followed by FEC	ER-negative/HER2-negative proxy	pCR	26 / 10 pCR	Additional external NAC cohort	Underpowered proxy-defined subset
+METABRIC	Primary tumors; Illumina expression microarray	Retrospective recurrence cohort	ER-negative/PR-negative/HER2-negative	RFS	320 / 131 RFS	Recurrence-biology analysis	Stage missing for 87/320; adjusted model is complete-case
+GSE266919	TNBC immune compartments; scRNA-seq	Chemotherapy with or without PD-L1 blockade	Original study TNBC cohort	Cell-source localization	44 patients / 78 biopsies	Biological localization	Not matched to bulk cohorts; not response validation
