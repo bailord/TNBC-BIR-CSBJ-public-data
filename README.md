@@ -6,7 +6,7 @@ The study maps context-dependent antigen-presentation states in triple-negative 
 
 ## Submission release
 
-Release `v1.4-submission` adds the frozen six-independent-cohort pCR sensitivity synthesis, complete figure source data, the corresponding Supplementary Table 2 row, and the exact scripts used to reproduce that synthesis and render the final figures. The principal five-additional-cohort synthesis shown in Figure 2 remains unchanged.
+Release `v1.5-submission` corrects the Figure 2 hollow-point annotation to identify the age- and stage-adjusted complete-case sensitivity analysis. No model, estimate, confidence interval, p value, sample count, or interpretation was changed. The release retains the frozen six-independent-cohort pCR sensitivity synthesis, complete figure source data, supplementary tables, and the exact scripts used to reproduce the submitted displays.
 
 ## Contents
 

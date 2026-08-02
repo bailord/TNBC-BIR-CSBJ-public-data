@@ -200,14 +200,14 @@ p2 <- (p2a | (p2b / p2c)) +
   plot_annotation(
     caption = paste(
       "Blue: internal or independent chemotherapy context; teal: additional external cohorts;",
-      "gray diamond: pooled estimate; hollow point: proliferation-adjusted sensitivity."
+      "gray diamond: pooled estimate; hollow point: age- and stage-adjusted complete-case sensitivity."
     ),
     theme = theme(
       plot.caption = element_text(size = 8, color = dark_gray, hjust = 0),
       plot.margin = margin(4, 4, 4, 4)
     )
   )
-save_all(p2, "Figure2_context_specific_effects_v2_5", 12.2, 8.2)
+save_all(p2, "Figure2_context_specific_effects_v2_6", 12.2, 8.2)
 
 # Figure 3: score composition and correlation structure
 overlap <- read_tsv(file.path(src, "Figure3_gene_overlap.tsv"), show_col_types = FALSE) %>%
