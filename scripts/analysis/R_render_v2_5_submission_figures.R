@@ -98,17 +98,19 @@ p1 <- ggplot() +
   annotate("text", x = 2.95, y = 3.35,
            label = "Module(k,i) = mean available gene z-scores",
            hjust = 0, color = dark_gray, size = 2.95) +
-  annotate("text", x = 2.95, y = 2.73,
-           label = "Summary(i) = mean z(HLA-II, CXCL9/FOLR2, DC/HLA)",
-           hjust = 0, color = dark_gray, size = 2.95) +
+  annotate("text", x = 2.95, y = 2.82,
+           label = "Summary(i) = mean z(HLA-II,\nCXCL9/FOLR2, DC/HLA)",
+           hjust = 0, vjust = 0.5, color = dark_gray, size = 2.9,
+           lineheight = 1.12) +
   annotate("segment", x = 2.95, xend = 5.05, y = 2.2, yend = 2.2,
            color = "#CDD3D7", linewidth = 0.5) +
   annotate("text", x = 2.95, y = 1.78,
            label = "Shared HLA genes disclosed",
            hjust = 0, color = orange, fontface = "bold", size = 2.9) +
-  annotate("text", x = 2.95, y = 1.28,
-           label = "Coverage checked; weights fixed after refinement",
-           hjust = 0, color = dark_gray, size = 2.75) +
+  annotate("text", x = 2.95, y = 1.31,
+           label = "Coverage checked; weights fixed\nafter refinement",
+           hjust = 0, vjust = 0.5, color = dark_gray, size = 2.75,
+           lineheight = 1.12) +
 
   annotate("point", x = 5.72, y = c(4.55, 3.78, 3.01, 2.24, 1.47),
            size = 3.2, shape = 21, stroke = 0.7,
@@ -142,7 +144,7 @@ p1 <- ggplot() +
   theme_void(base_family = "Helvetica") +
   theme(plot.margin = margin(10, 14, 10, 14))
 
-save_all(p1, "Figure1_experimental_technical_design_v2_5", 12.0, 6.2)
+save_all(p1, "Figure1_experimental_technical_design_v2_6", 12.0, 6.2)
 
 # Figure 2: response, proliferation, and recurrence forests
 f2 <- read_tsv(file.path(src, "Figure2_effects_source_data.tsv"), show_col_types = FALSE) %>%

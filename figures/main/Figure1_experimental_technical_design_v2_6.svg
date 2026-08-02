@@ -58,10 +58,12 @@
 <text x='238.81' y='128.67' style='font-size: 8.96px; font-weight: bold;fill: #4D555B; font-family: "Helvetica";' textLength='113.98px' lengthAdjust='spacingAndGlyphs'>Gene-level standardization</text>
 <text x='238.81' y='159.70' style='font-size: 8.68px;fill: #173B57; font-family: "Helvetica";' textLength='145.36px' lengthAdjust='spacingAndGlyphs'>z(g,i) = [x(g,i) - gene mean] / gene SD</text>
 <text x='238.81' y='207.98' style='font-size: 8.39px;fill: #4D555B; font-family: "Helvetica";' textLength='162.64px' lengthAdjust='spacingAndGlyphs'>Module(k,i) = mean available gene z-scores</text>
-<text x='238.81' y='249.07' style='font-size: 8.39px;fill: #4D555B; font-family: "Helvetica";' textLength='206.38px' lengthAdjust='spacingAndGlyphs'>Summary(i) = mean z(HLA-II, CXCL9/FOLR2, DC/HLA)</text>
+<text x='238.81' y='237.51' style='font-size: 8.25px;fill: #4D555B; font-family: "Helvetica";' textLength='107.56px' lengthAdjust='spacingAndGlyphs'>Summary(i) = mean z(HLA-II,</text>
+<text x='238.81' y='248.60' style='font-size: 8.25px;fill: #4D555B; font-family: "Helvetica";' textLength='93.09px' lengthAdjust='spacingAndGlyphs'>CXCL9/FOLR2, DC/HLA)</text>
 <line x1='238.81' y1='281.19' x2='371.83' y2='281.19' style='stroke-width: 1.07; stroke: #CDD3D7; stroke-linecap: butt;' />
 <text x='238.81' y='312.00' style='font-size: 8.25px; font-weight: bold;fill: #D97925; font-family: "Helvetica";' textLength='113.52px' lengthAdjust='spacingAndGlyphs'>Shared HLA genes disclosed</text>
-<text x='238.81' y='344.96' style='font-size: 7.82px;fill: #4D555B; font-family: "Helvetica";' textLength='171.55px' lengthAdjust='spacingAndGlyphs'>Coverage checked; weights fixed after refinement</text>
+<text x='238.81' y='337.72' style='font-size: 7.82px;fill: #4D555B; font-family: "Helvetica";' textLength='114.64px' lengthAdjust='spacingAndGlyphs'>Coverage checked; weights fixed</text>
+<text x='238.81' y='348.23' style='font-size: 7.82px;fill: #4D555B; font-family: "Helvetica";' textLength='54.73px' lengthAdjust='spacingAndGlyphs'>after refinement</text>
 <circle cx='414.26' cy='125.45' r='3.91' style='stroke-width: 0.99; stroke: #FFFFFF; fill: #2878A5;' />
 <circle cx='414.26' cy='176.48' r='3.91' style='stroke-width: 0.99; stroke: #FFFFFF; fill: #173B57;' />
 <circle cx='414.26' cy='227.51' r='3.91' style='stroke-width: 0.99; stroke: #FFFFFF; fill: #2A8C82;' />
@@ -86,7 +88,7 @@
 <text x='629.62' y='311.32' style='font-size: 8.25px;fill: #4D555B; font-family: "Helvetica";' textLength='133.14px' lengthAdjust='spacingAndGlyphs'>Independent component dimensions</text>
 <text x='629.62' y='323.59' style='font-size: 8.25px;fill: #4D555B; font-family: "Helvetica";' textLength='47.67px' lengthAdjust='spacingAndGlyphs'>Clinical utility</text>
 <text x='72.22' y='398.20' style='font-size: 8.39px; font-weight: bold;fill: #173B57; font-family: "Helvetica";' textLength='82.55px' lengthAdjust='spacingAndGlyphs'>Analysis chronology</text>
-<text x='178.63' y='398.03' style='font-size: 7.97px;fill: #4D555B; font-family: "Helvetica";' textLength='342.95px' lengthAdjust='spacingAndGlyphs'>internal association  |  independent negative context  |  external synthesis  |  biological localization</text>
+<text x='178.63' y='398.03' style='font-size: 7.97px;fill: #4D555B; font-family: "Helvetica";' textLength='340.75px' lengthAdjust='spacingAndGlyphs'>internal association  |  independent negative context  | external synthesis  |  biological localization</text>
 </g>
 </g>
 </svg>
