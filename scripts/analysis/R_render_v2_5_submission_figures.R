@@ -93,11 +93,13 @@ p1 <- ggplot() +
   annotate("text", x = 2.95, y = 4.55, label = "Gene-level standardization",
            hjust = 0, color = dark_gray, fontface = "bold", size = 3.15) +
   annotate("text", x = 2.95, y = 4.08,
-           label = "z(g,i) = [x(g,i) - gene mean] / gene SD",
-           hjust = 0, color = navy, size = 3.05) +
-  annotate("text", x = 2.95, y = 3.35,
-           label = "Module(k,i) = mean available gene z-scores",
-           hjust = 0, color = dark_gray, size = 2.95) +
+           label = "z(g,i) = [x(g,i) - gene mean]\n/ gene SD",
+           hjust = 0, vjust = 0.5, color = navy, size = 3.0,
+           lineheight = 1.12) +
+  annotate("text", x = 2.95, y = 3.40,
+           label = "Module(k,i) = mean available\ngene z-scores",
+           hjust = 0, vjust = 0.5, color = dark_gray, size = 2.9,
+           lineheight = 1.12) +
   annotate("text", x = 2.95, y = 2.82,
            label = "Summary(i) = mean z(HLA-II,\nCXCL9/FOLR2, DC/HLA)",
            hjust = 0, vjust = 0.5, color = dark_gray, size = 2.9,

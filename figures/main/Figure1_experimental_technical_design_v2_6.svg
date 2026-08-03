@@ -56,8 +56,10 @@
 <text x='83.62' y='318.67' style='font-size: 8.54px;fill: #4D555B; font-family: "Helvetica";' textLength='111.98px' lengthAdjust='spacingAndGlyphs'>CXCL9 / FOLR2 macrophage</text>
 <text x='83.62' y='331.47' style='font-size: 8.54px;fill: #4D555B; font-family: "Helvetica";' textLength='73.03px' lengthAdjust='spacingAndGlyphs'>Dendritic-cell / HLA</text>
 <text x='238.81' y='128.67' style='font-size: 8.96px; font-weight: bold;fill: #4D555B; font-family: "Helvetica";' textLength='113.98px' lengthAdjust='spacingAndGlyphs'>Gene-level standardization</text>
-<text x='238.81' y='159.70' style='font-size: 8.68px;fill: #173B57; font-family: "Helvetica";' textLength='145.36px' lengthAdjust='spacingAndGlyphs'>z(g,i) = [x(g,i) - gene mean] / gene SD</text>
-<text x='238.81' y='207.98' style='font-size: 8.39px;fill: #4D555B; font-family: "Helvetica";' textLength='162.64px' lengthAdjust='spacingAndGlyphs'>Module(k,i) = mean available gene z-scores</text>
+<text x='238.81' y='153.92' style='font-size: 8.54px;fill: #173B57; font-family: "Helvetica";' textLength='102.75px' lengthAdjust='spacingAndGlyphs'>z(g,i) = [x(g,i) - gene mean]</text>
+<text x='238.81' y='165.39' style='font-size: 8.54px;fill: #173B57; font-family: "Helvetica";' textLength='37.97px' lengthAdjust='spacingAndGlyphs'>/ gene SD</text>
+<text x='238.81' y='199.08' style='font-size: 8.25px;fill: #4D555B; font-family: "Helvetica";' textLength='105.77px' lengthAdjust='spacingAndGlyphs'>Module(k,i) = mean available</text>
+<text x='238.81' y='210.16' style='font-size: 8.25px;fill: #4D555B; font-family: "Helvetica";' textLength='51.86px' lengthAdjust='spacingAndGlyphs'>gene z-scores</text>
 <text x='238.81' y='237.51' style='font-size: 8.25px;fill: #4D555B; font-family: "Helvetica";' textLength='107.56px' lengthAdjust='spacingAndGlyphs'>Summary(i) = mean z(HLA-II,</text>
 <text x='238.81' y='248.60' style='font-size: 8.25px;fill: #4D555B; font-family: "Helvetica";' textLength='93.09px' lengthAdjust='spacingAndGlyphs'>CXCL9/FOLR2, DC/HLA)</text>
 <line x1='238.81' y1='281.19' x2='371.83' y2='281.19' style='stroke-width: 1.07; stroke: #CDD3D7; stroke-linecap: butt;' />

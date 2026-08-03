@@ -6,7 +6,7 @@ The study maps context-dependent antigen-presentation states in triple-negative 
 
 ## Submission release
 
-Release `v1.6-submission` improves the column-safe line wrapping in Figure 1 and retains the corrected Figure 2 hollow-point annotation identifying the age- and stage-adjusted complete-case sensitivity analysis. No model, estimate, confidence interval, p value, sample count, or interpretation was changed. The release retains the frozen six-independent-cohort pCR sensitivity synthesis, complete figure source data, supplementary tables, and the exact scripts used to reproduce the submitted displays.
+Release `v1.7-submission` places every scoring expression in Figure 1 inside a fixed-width, explicitly line-broken text block and includes a fully editable PowerPoint version of the figure. It retains the corrected Figure 2 hollow-point annotation identifying the age- and stage-adjusted complete-case sensitivity analysis. No model, estimate, confidence interval, p value, sample count, or interpretation was changed. The release retains the frozen six-independent-cohort pCR sensitivity synthesis, complete figure source data, supplementary tables, and the exact scripts used to reproduce the submitted displays.
 
 ## Contents
 
